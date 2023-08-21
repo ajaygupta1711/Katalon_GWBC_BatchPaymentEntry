@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BC_StartInvoiceBillingBatch_PerfValidate - Edge</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ccca3785-a6ae-4e19-8f83-47db571b22df</testCaseGuid>
+</TestCaseEntity>

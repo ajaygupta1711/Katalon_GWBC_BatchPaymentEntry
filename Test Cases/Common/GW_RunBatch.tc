@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to BatchProcessInfo page to run batch.</description>
+   <name>GW_RunBatch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a31c364a-b9a4-4f5e-b009-2e17262b242f</testCaseGuid>
+   <variable>
+      <defaultValue>'Disbursement'</defaultValue>
+      <description></description>
+      <id>dac62565-6849-4f66-8be3-7ce025d8b6ff</id>
+      <masked>false</masked>
+      <name>BatchName</name>
+   </variable>
+</TestCaseEntity>

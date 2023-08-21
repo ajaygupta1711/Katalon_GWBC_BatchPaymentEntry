@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Launch the browser and log into Policy Center.</description>
+   <name>BC_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aeba921c-c5ed-4e6d-bde9-0ce830b49afc</testCaseGuid>
+   <variable>
+      <defaultValue>'su'</defaultValue>
+      <description></description>
+      <id>079c81df-34e8-4733-866a-2bd99b374a4b</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'gw'</defaultValue>
+      <description></description>
+      <id>deb73e3f-c6c9-4ad3-b0e7-8ae248af34c9</id>
+      <masked>true</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f4c14edd-206c-46ca-b37a-27e11d94dad5</id>
+      <masked>false</masked>
+      <name>URL_BC</name>
+   </variable>
+</TestCaseEntity>

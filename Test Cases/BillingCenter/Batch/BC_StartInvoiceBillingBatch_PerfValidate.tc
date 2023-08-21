@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BC_StartInvoiceBillingBatch_PerfValidate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c81b4145-963f-486a-8c0d-32c28cbff0fb</testCaseGuid>
+</TestCaseEntity>

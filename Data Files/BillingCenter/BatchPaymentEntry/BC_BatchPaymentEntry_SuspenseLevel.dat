@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>BC_BatchPaymentEntry_SuspenseLevel</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>527b2e84-3f5f-4156-94cd-c73229c701df</dataFileGUID>
+   <dataSourceUrl>C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Data Files\BillingCenter\BatchPaymentEntry\BatchPaymentEntries_SuspenseLevel.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>SuspensePayments</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

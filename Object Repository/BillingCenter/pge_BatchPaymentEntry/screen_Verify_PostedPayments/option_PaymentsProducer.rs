@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_PaymentsProducer</name>
+   <tag></tag>
+   <elementGuidId>450ae532-4832-439c-8a2b-4437ab221ec4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div[id=ProducerDetailGroup-MenuLinks-ProducerDetailGroup_AgencyBillPayments-AgencyBillPayments_AgencyBillExecutedPayments]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

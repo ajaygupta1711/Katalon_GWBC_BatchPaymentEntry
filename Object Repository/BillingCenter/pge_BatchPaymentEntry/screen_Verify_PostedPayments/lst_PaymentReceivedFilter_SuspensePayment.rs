@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lst_PaymentReceivedFilter_SuspensePayment</name>
+   <tag></tag>
+   <elementGuidId>c1996e0a-0074-4fad-b703-0ace6d9d0061</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>*[name='DesktopSuspensePayments-DesktopSuspensePaymentsScreen-DesktopSuspensePaymentsLV-SuspensePaymentStatusFilter']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

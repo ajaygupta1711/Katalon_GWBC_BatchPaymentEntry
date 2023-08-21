@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_03_Message_Queue</name>
+   <tag></tag>
+   <comment>RunConfiguration.getExecutionProfile()
+Profile_SourceName
+Profile
+Status</comment>
+   <testCaseGuid>e230fa17-06c6-43cb-998b-0a48bd05f783</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>39161dff-5d4b-4301-9bd8-dc7a50711eba</id>
+      <masked>false</masked>
+      <name>AccountNumber</name>
+   </variable>
+</TestCaseEntity>

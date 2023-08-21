@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BC_StartInvoiceDueBatch_PerfValidate - Edge</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fba23edc-cd14-4375-abf6-98f1b11f0b1a</testCaseGuid>
+</TestCaseEntity>

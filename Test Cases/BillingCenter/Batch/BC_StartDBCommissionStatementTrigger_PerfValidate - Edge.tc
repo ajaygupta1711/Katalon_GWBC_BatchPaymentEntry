@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BC_StartDBCommissionStatementTrigger_PerfValidate - Edge</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6f663a2-01b6-4f5c-8f86-1884d7ad80de</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>srt_PaymentDate_SuspensePayments</name>
+   <tag></tag>
+   <elementGuidId>3c766c7d-a5f6-477c-a753-d500cea9705e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>*[id='DesktopSuspensePayments-DesktopSuspensePaymentsScreen-DesktopSuspensePaymentsLV-PaymentDateHeader_toggleSort']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,116 @@
+1
+00:00:00,323 --> 00:00:00,324
+1. callTestCase(findTestCase("Common/GW_Login"), ["GW_URL":URL_BC, "UserName":UserName, "Password":Password], STOP_ON_FAILURE)
+
+2
+00:00:01,045 --> 00:00:01,048
+1. openBrowser("")
+
+3
+00:00:04,721 --> 00:00:04,721
+5. maximizeWindow()
+
+4
+00:00:04,913 --> 00:00:04,913
+9. navigateToUrl(GW_URL)
+
+5
+00:00:06,023 --> 00:00:06,024
+13. gw.Text.SetText(findTestObject("Common/pge_LoginScreen/txt_UserName"), UserName)
+
+6
+00:00:07,924 --> 00:00:07,925
+17. gw.Text.SetText(findTestObject("Common/pge_LoginScreen/txt_Password"), Password)
+
+7
+00:00:09,485 --> 00:00:09,486
+21. gw.Actions.Click(findTestObject("Common/pge_LoginScreen/btn_LogIn"))
+
+8
+00:00:10,356 --> 00:00:10,357
+5. gw.Actions.NavigateByTab("Desktop")
+
+9
+00:00:11,504 --> 00:00:11,505
+9. verifyElementPresent(findTestObject("Common/pge_Common/wel_MyActivities"), gWaitTimeOut)
+
+10
+00:00:12,292 --> 00:00:12,292
+1. tc_end_Time = System.currentTimeMillis()
+
+11
+00:00:12,295 --> 00:00:12,295
+5. date_tc_end_Time = dateformat.format(tc_end_Time)
+
+12
+00:00:12,298 --> 00:00:12,299
+9. (tempRowNum++)
+
+13
+00:00:12,300 --> 00:00:12,302
+13. testCaseID = testCaseContext.getTestCaseId()
+
+14
+00:00:12,303 --> 00:00:12,304
+17. testCase = findTestCase(testCaseID)
+
+15
+00:00:12,309 --> 00:00:12,310
+21. testCaseName = testCase.getName()
+
+16
+00:00:12,319 --> 00:00:12,321
+25. switch (testCaseContext.getTestCaseStatus())
+
+17
+00:00:12,335 --> 00:00:12,336
+2. (passedCnt++)
+
+18
+00:00:12,338 --> 00:00:12,339
+6. break
+
+19
+00:00:12,342 --> 00:00:12,344
+29. if (testCaseName == "GenerateAndSendReport")
+
+20
+00:00:12,352 --> 00:00:12,353
+33. if (testCaseName == "GenerateAndSaveReport")
+
+21
+00:00:12,356 --> 00:00:12,357
+37. if (testCaseName == "GenerateTimeReport")
+
+22
+00:00:12,368 --> 00:00:12,370
+41. if (!(testCaseName.contains("Submission")) && !(testCaseName.contains("Issurance")) && !(testCaseName.contains("NewAccount")) && !(testCaseName.contains("FNOL")) && !(testCaseName.contains("QuickClaim")) && !(testCaseName.contains("verify")))
+
+23
+00:00:14,454 --> 00:00:14,454
+1. if (Env_TestCaseId == testCaseContext.getTestCaseId())
+
+24
+00:00:14,458 --> 00:00:14,459
+2. iteration = 1
+
+25
+00:00:14,462 --> 00:00:14,462
+5. Env_Iteration = iteration
+
+26
+00:00:14,466 --> 00:00:14,467
+9. Env_TestCaseId = testCaseContext.getTestCaseId()
+
+27
+00:00:14,472 --> 00:00:14,472
+13. Env_TestCaseVariables = testCaseContext.getTestCaseVariables()
+
+28
+00:00:14,480 --> 00:00:14,480
+17. tc_start_Time = System.currentTimeMillis()
+
+29
+00:00:14,482 --> 00:00:14,484
+21. date_tc_start_Time = dateformat.format(tc_start_Time)
+

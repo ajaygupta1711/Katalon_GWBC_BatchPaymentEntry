@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to the QuickJumb box and Run the Batch Job</description>
+   <name>BC_RunBatchJobFromQuickJump</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>042ec1c2-8dec-464b-af1f-e2d15146b9a2</testCaseGuid>
+</TestCaseEntity>

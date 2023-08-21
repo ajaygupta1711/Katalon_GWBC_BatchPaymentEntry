@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lst_PaymentReceivedFilter_AgencyDBComm</name>
+   <tag></tag>
+   <elementGuidId>3b1b4a9a-f856-4d6c-8672-390a3a3019f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>*[name='ProducerTransactions-ProducerTransactionsScreen-PaymentsLV-TimeFilter']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

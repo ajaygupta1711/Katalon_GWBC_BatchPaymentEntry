@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_02_System_Date</name>
+   <tag></tag>
+   <comment>RunConfiguration.getExecutionProfile()
+Profile_SourceName
+Profile</comment>
+   <testCaseGuid>2dbae0c0-6984-482d-aa2f-3352d8dc5cbd</testCaseGuid>
+</TestCaseEntity>

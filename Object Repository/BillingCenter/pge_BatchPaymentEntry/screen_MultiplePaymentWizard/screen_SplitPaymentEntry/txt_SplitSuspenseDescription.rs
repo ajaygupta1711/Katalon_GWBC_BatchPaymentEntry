@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_SplitSuspenseDescription</name>
+   <tag></tag>
+   <elementGuidId>99546ddc-da69-43f9-a3a2-7d641d265638</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name='NewMultiPaymentSplitExtPopup-NewMultiPaymentSplitExtScreen-NewMultiPaymentLV-5-Description']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Fill in the Agency Payment Details on the Multiple Payment Entry Wizard screen</description>
+   <name>BC_MultiplePaymentEntryandVerification_AgencyLevel</name>
+   <tag></tag>
+   <comment>Posted Payment Batch Number &quot; + BatchNumber
+Elements after function call to getTableElementsByColumn &quot; + elementsinColumn</comment>
+   <testCaseGuid>81cec443-a3cc-4721-92f2-750658fa376e</testCaseGuid>
+   <variable>
+      <defaultValue>['Cash Accounting']</defaultValue>
+      <description></description>
+      <id>64eac668-91c0-40e4-8ee6-9bf76f2a65f2</id>
+      <masked>false</masked>
+      <name>Source</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>ae79fdf5-6a4c-45d1-9a8c-9ea1e37727ef</id>
+      <masked>false</masked>
+      <name>BatchAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aea044fe-a8f3-4076-ad47-75404a237b4b</id>
+      <masked>false</masked>
+      <name>AgencyCode</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>b94152a1-1c8f-4d9f-9608-caa8772499bb</id>
+      <masked>false</masked>
+      <name>Amount</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7e7c93dc-8030-4dc9-aa4b-905c70bf655b</id>
+      <masked>false</masked>
+      <name>CheckRef</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fadc340a-4fb1-4d8c-9485-758a8531d5a9</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+   <variable>
+      <defaultValue>['Check']</defaultValue>
+      <description></description>
+      <id>7fa3003e-daf6-4a00-8236-2515bc293e1d</id>
+      <masked>false</masked>
+      <name>PaymentInstrument</name>
+   </variable>
+   <variable>
+      <defaultValue>['Payment']</defaultValue>
+      <description></description>
+      <id>2e50b148-a0e8-4ac7-b2e9-61eded43a119</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

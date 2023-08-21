@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GenerateTimeReport</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5aea24c-6161-428c-84c3-8356484bc760</testCaseGuid>
+   <variable>
+      <defaultValue>'2: 1234'</defaultValue>
+      <description></description>
+      <id>320a1806-8a76-4e71-a91c-00d600c57f74</id>
+      <masked>false</masked>
+      <name>LocationDescription</name>
+   </variable>
+</TestCaseEntity>

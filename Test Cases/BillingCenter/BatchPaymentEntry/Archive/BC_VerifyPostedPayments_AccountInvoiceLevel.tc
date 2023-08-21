@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the posted payments on account and invoice level</description>
+   <name>BC_VerifyPostedPayments_AccountInvoiceLevel</name>
+   <tag></tag>
+   <comment>Elements after function call to getTableElementsByColumn &quot; + elementsinColumn</comment>
+   <testCaseGuid>027983a2-c9a8-4715-be6f-3d1c13d929e4</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>9c926ca4-0fc8-438b-a19d-fe71a277aca1</id>
+      <masked>false</masked>
+      <name>Account</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>15c1a54a-8087-4989-89d5-f071ed3abf00</id>
+      <masked>false</masked>
+      <name>BatchNumber</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>chk_SplitAgencyDBComm</name>
+   <tag></tag>
+   <elementGuidId>90fe2a59-ee9b-40cb-8a19-9981e1a71da2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>*[name='NewMultiPaymentSplitExtPopup-NewMultiPaymentSplitExtScreen-NewMultiPaymentLV-4-DBCommissions_Ext']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

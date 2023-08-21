@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radio_Override_Yes</name>
+   <tag></tag>
+   <elementGuidId>5aba3a6a-d9a7-4061-9042-560bc6760800</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[text()=&quot;Override&quot;]/following-sibling::div//input)[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[text()=&quot;Override&quot;]/following-sibling::div//input)[1]</value>
+   </webElementProperties>
+</WebElementEntity>

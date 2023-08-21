@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_SplitAgencyStatementDescription</name>
+   <tag></tag>
+   <elementGuidId>af5a8814-e384-43d8-b5d0-7031dd97c586</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name='NewMultiPaymentSplitExtPopup-NewMultiPaymentSplitExtScreen-NewMultiPaymentLV-3-Description']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

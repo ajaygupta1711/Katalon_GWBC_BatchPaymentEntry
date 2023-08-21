@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BC_StartInvoiceDocumentTrigger_PerfValidate - Edge</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>635f8734-2c7a-4587-823b-d88020776f52</testCaseGuid>
+</TestCaseEntity>

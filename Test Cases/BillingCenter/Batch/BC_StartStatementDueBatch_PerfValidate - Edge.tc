@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BC_StartStatementDueBatch_PerfValidate - Edge</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3885744d-5874-465b-9f45-1c86430cc1bb</testCaseGuid>
+</TestCaseEntity>

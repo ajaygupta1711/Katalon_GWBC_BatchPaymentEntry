@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_AccountSync_Status</name>
+   <tag></tag>
+   <elementGuidId>fe32a1f7-ac9b-4cac-a95c-d581b3e087a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[contains(text(),'AccountSync')]/following::div)[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[contains(text(),'AccountSync')]/following::div)[8]</value>
+   </webElementProperties>
+</WebElementEntity>

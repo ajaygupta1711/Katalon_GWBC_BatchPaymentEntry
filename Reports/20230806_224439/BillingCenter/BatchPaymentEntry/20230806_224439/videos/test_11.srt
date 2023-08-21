@@ -1,0 +1,104 @@
+1
+00:00:00,195 --> 00:00:00,196
+1. callTestCase(findTestCase("Common/GW_Logout"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,553 --> 00:00:00,553
+1. gw.Actions.Click(findTestObject("Common/pge_Common/btn_TabMenu"))
+
+3
+00:00:01,395 --> 00:00:01,395
+5. gw.Actions.Click(findTestObject("Common/pge_Common/btn_LogOut"))
+
+4
+00:00:02,310 --> 00:00:02,311
+9. acceptAlert(OPTIONAL)
+
+5
+00:00:02,338 --> 00:00:02,339
+13. if (!(verifyElementPresent(findTestObject("Common/pge_LoginScreen/btn_LogIn"), gWaitTimeOut, OPTIONAL)))
+
+6
+00:00:03,695 --> 00:00:03,696
+17. verifyElementPresent(findTestObject("Common/pge_LoginScreen/btn_LogIn"), gWaitTimeOut)
+
+7
+00:00:04,006 --> 00:00:04,006
+21. closeBrowser()
+
+8
+00:00:05,473 --> 00:00:05,473
+1. tc_end_Time = System.currentTimeMillis()
+
+9
+00:00:05,477 --> 00:00:05,477
+5. date_tc_end_Time = dateformat.format(tc_end_Time)
+
+10
+00:00:05,478 --> 00:00:05,479
+9. (tempRowNum++)
+
+11
+00:00:05,480 --> 00:00:05,480
+13. testCaseID = testCaseContext.getTestCaseId()
+
+12
+00:00:05,483 --> 00:00:05,483
+17. testCase = findTestCase(testCaseID)
+
+13
+00:00:05,489 --> 00:00:05,489
+21. testCaseName = testCase.getName()
+
+14
+00:00:05,491 --> 00:00:05,491
+25. switch (testCaseContext.getTestCaseStatus())
+
+15
+00:00:05,493 --> 00:00:05,493
+2. (passedCnt++)
+
+16
+00:00:05,496 --> 00:00:05,496
+6. break
+
+17
+00:00:05,499 --> 00:00:05,499
+29. if (testCaseName == "GenerateAndSendReport")
+
+18
+00:00:05,501 --> 00:00:05,503
+33. if (testCaseName == "GenerateAndSaveReport")
+
+19
+00:00:05,505 --> 00:00:05,505
+37. if (testCaseName == "GenerateTimeReport")
+
+20
+00:00:05,507 --> 00:00:05,509
+41. if (!(testCaseName.contains("Submission")) && !(testCaseName.contains("Issurance")) && !(testCaseName.contains("NewAccount")) && !(testCaseName.contains("FNOL")) && !(testCaseName.contains("QuickClaim")) && !(testCaseName.contains("verify")))
+
+21
+00:00:07,566 --> 00:00:07,566
+1. if (Env_TestSuiteName == "EmailReport")
+
+22
+00:00:07,567 --> 00:00:07,569
+5. if (Env_TestSuiteName == "GenerateReport")
+
+23
+00:00:07,572 --> 00:00:07,573
+9. if (Env_TestSuiteName == "GenerateElapsedTimeReport")
+
+24
+00:00:07,575 --> 00:00:07,576
+13. ts_end_Time = System.currentTimeMillis()
+
+25
+00:00:07,577 --> 00:00:07,578
+17. date_ts_end_Time = dateformat.format(ts_end_Time)
+
+26
+00:00:07,579 --> 00:00:07,580
+21. Excel.WirteToExcel(reportSumPath, reportSheet, 1, "Elapsed Time", FormatTime.formatElapsed(ts_end_Time - ts_start_Time))
+

@@ -1,0 +1,92 @@
+1
+00:00:00,239 --> 00:00:00,239
+1. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_Desktop_Actions"))
+
+2
+00:00:00,745 --> 00:00:00,746
+5. mouseOver(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/act_NewPayment"))
+
+3
+00:00:01,376 --> 00:00:01,377
+9. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_newPayment _BatchPaymentEntry"))
+
+4
+00:00:01,852 --> 00:00:01,852
+1. tc_end_Time = System.currentTimeMillis()
+
+5
+00:00:01,855 --> 00:00:01,856
+5. date_tc_end_Time = dateformat.format(tc_end_Time)
+
+6
+00:00:01,857 --> 00:00:01,858
+9. (tempRowNum++)
+
+7
+00:00:01,860 --> 00:00:01,861
+13. testCaseID = testCaseContext.getTestCaseId()
+
+8
+00:00:01,863 --> 00:00:01,863
+17. testCase = findTestCase(testCaseID)
+
+9
+00:00:01,873 --> 00:00:01,874
+21. testCaseName = testCase.getName()
+
+10
+00:00:01,877 --> 00:00:01,877
+25. switch (testCaseContext.getTestCaseStatus())
+
+11
+00:00:01,881 --> 00:00:01,881
+2. (passedCnt++)
+
+12
+00:00:01,883 --> 00:00:01,884
+6. break
+
+13
+00:00:01,886 --> 00:00:01,887
+29. if (testCaseName == "GenerateAndSendReport")
+
+14
+00:00:01,890 --> 00:00:01,891
+33. if (testCaseName == "GenerateAndSaveReport")
+
+15
+00:00:01,893 --> 00:00:01,894
+37. if (testCaseName == "GenerateTimeReport")
+
+16
+00:00:01,896 --> 00:00:01,897
+41. if (!(testCaseName.contains("Submission")) && !(testCaseName.contains("Issurance")) && !(testCaseName.contains("NewAccount")) && !(testCaseName.contains("FNOL")) && !(testCaseName.contains("QuickClaim")) && !(testCaseName.contains("verify")))
+
+17
+00:00:04,102 --> 00:00:04,102
+1. if (Env_TestCaseId == testCaseContext.getTestCaseId())
+
+18
+00:00:04,104 --> 00:00:04,105
+2. iteration = 1
+
+19
+00:00:04,106 --> 00:00:04,106
+5. Env_Iteration = iteration
+
+20
+00:00:04,113 --> 00:00:04,114
+9. Env_TestCaseId = testCaseContext.getTestCaseId()
+
+21
+00:00:04,120 --> 00:00:04,120
+13. Env_TestCaseVariables = testCaseContext.getTestCaseVariables()
+
+22
+00:00:04,130 --> 00:00:04,133
+17. tc_start_Time = System.currentTimeMillis()
+
+23
+00:00:04,136 --> 00:00:04,137
+21. date_tc_start_Time = dateformat.format(tc_start_Time)
+

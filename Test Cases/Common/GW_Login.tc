@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GW_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac1a8ebd-4aa1-444b-91b9-c0fae0242a13</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fb700f12-b61a-49e4-8ee2-deaf08e48ac8</id>
+      <masked>false</masked>
+      <name>GW_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>72b3b70e-d769-42a6-83ec-6af31e67c9e2</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>76cd5251-4b42-4ac9-a659-3a635f953fca</id>
+      <masked>true</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

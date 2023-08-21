@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BC_StartPaymentRequestBatch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aab16c51-32b4-4e69-9818-879c726d7c79</testCaseGuid>
+</TestCaseEntity>

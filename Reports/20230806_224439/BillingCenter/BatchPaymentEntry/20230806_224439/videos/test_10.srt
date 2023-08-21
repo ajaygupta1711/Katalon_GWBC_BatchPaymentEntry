@@ -1,0 +1,688 @@
+1
+00:00:00,800 --> 00:00:00,801
+1. selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_Source"), Source, false, CONTINUE_ON_FAILURE)
+
+2
+00:00:01,684 --> 00:00:01,685
+5. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_BatchAmount"), BatchAmount, CONTINUE_ON_FAILURE)
+
+3
+00:00:03,231 --> 00:00:03,234
+9. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_BatchAmount"), Keys.chord(TAB))
+
+4
+00:00:03,662 --> 00:00:03,663
+13. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_Split"), CONTINUE_ON_FAILURE)
+
+5
+00:00:04,291 --> 00:00:04,292
+17. check(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_Split"), CONTINUE_ON_FAILURE)
+
+6
+00:00:04,846 --> 00:00:04,846
+21. selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_Type"), Type, false, CONTINUE_ON_FAILURE)
+
+7
+00:00:05,861 --> 00:00:05,862
+25. clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount"), CONTINUE_ON_FAILURE)
+
+8
+00:00:06,859 --> 00:00:06,859
+29. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount"), Amount, CONTINUE_ON_FAILURE)
+
+9
+00:00:07,917 --> 00:00:07,919
+33. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount"), Keys.chord(TAB))
+
+10
+00:00:08,444 --> 00:00:08,444
+37. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_CheckRef"), CONTINUE_ON_FAILURE)
+
+11
+00:00:09,042 --> 00:00:09,043
+41. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_CheckRef"), CheckRef, CONTINUE_ON_FAILURE)
+
+12
+00:00:09,943 --> 00:00:09,943
+45. selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_PaymentInstrument"), PaymentInstrument, false, CONTINUE_ON_FAILURE)
+
+13
+00:00:10,558 --> 00:00:10,558
+49. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_Split"), STOP_ON_FAILURE)
+
+14
+00:00:10,913 --> 00:00:10,913
+53. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_Split"), CONTINUE_ON_FAILURE)
+
+15
+00:00:11,477 --> 00:00:11,478
+57. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE)
+
+16
+00:00:12,162 --> 00:00:12,163
+61. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE)
+
+17
+00:00:12,559 --> 00:00:12,560
+65. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAccount"), CONTINUE_ON_FAILURE)
+
+18
+00:00:13,213 --> 00:00:13,215
+69. selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAccount"), SplitTypePayment, false, CONTINUE_ON_FAILURE)
+
+19
+00:00:13,848 --> 00:00:13,850
+73. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccount"))
+
+20
+00:00:14,419 --> 00:00:14,419
+77. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccount"), SplitAccount, CONTINUE_ON_FAILURE)
+
+21
+00:00:15,147 --> 00:00:15,147
+81. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccount"), Keys.chord(TAB), CONTINUE_ON_FAILURE)
+
+22
+00:00:15,561 --> 00:00:15,562
+85. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount"), STOP_ON_FAILURE)
+
+23
+00:00:16,199 --> 00:00:16,199
+89. clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount"))
+
+24
+00:00:16,587 --> 00:00:16,589
+93. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount"), SplitAccountAmount)
+
+25
+00:00:17,334 --> 00:00:17,335
+97. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount"), Keys.chord(TAB))
+
+26
+00:00:17,846 --> 00:00:17,847
+101. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountDescription"), CONTINUE_ON_FAILURE)
+
+27
+00:00:18,462 --> 00:00:18,463
+105. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountDescription"), SplitAccountDescription, CONTINUE_ON_FAILURE)
+
+28
+00:00:19,232 --> 00:00:19,233
+109. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE)
+
+29
+00:00:19,556 --> 00:00:19,556
+113. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE)
+
+30
+00:00:19,968 --> 00:00:19,969
+117. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentInvoice"), CONTINUE_ON_FAILURE)
+
+31
+00:00:20,629 --> 00:00:20,630
+121. selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentInvoice"), SplitTypePayment, false, CONTINUE_ON_FAILURE)
+
+32
+00:00:21,247 --> 00:00:21,249
+125. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoice"))
+
+33
+00:00:21,903 --> 00:00:21,904
+129. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoice"), SplitInvoice, CONTINUE_ON_FAILURE)
+
+34
+00:00:22,673 --> 00:00:22,674
+133. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoice"), Keys.chord(TAB), CONTINUE_ON_FAILURE)
+
+35
+00:00:23,057 --> 00:00:23,058
+137. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount"))
+
+36
+00:00:23,705 --> 00:00:23,705
+141. clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount"))
+
+37
+00:00:24,123 --> 00:00:24,123
+145. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount"), SplitInvoiceAmount, CONTINUE_ON_FAILURE)
+
+38
+00:00:24,809 --> 00:00:24,811
+149. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount"), Keys.chord(TAB))
+
+39
+00:00:25,313 --> 00:00:25,314
+153. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceDescription"), CONTINUE_ON_FAILURE)
+
+40
+00:00:25,921 --> 00:00:25,922
+157. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceDescription"), SplitInvoiceDescription, CONTINUE_ON_FAILURE)
+
+41
+00:00:26,598 --> 00:00:26,599
+161. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE)
+
+42
+00:00:26,915 --> 00:00:26,915
+165. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE)
+
+43
+00:00:27,332 --> 00:00:27,333
+169. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgency"), CONTINUE_ON_FAILURE)
+
+44
+00:00:27,945 --> 00:00:27,946
+173. selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgency"), SplitTypePayment, false, CONTINUE_ON_FAILURE)
+
+45
+00:00:28,579 --> 00:00:28,580
+177. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgency"))
+
+46
+00:00:29,216 --> 00:00:29,216
+181. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgency"), SplitAgency, CONTINUE_ON_FAILURE)
+
+47
+00:00:29,963 --> 00:00:29,963
+185. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgency"), Keys.chord(TAB), CONTINUE_ON_FAILURE)
+
+48
+00:00:30,325 --> 00:00:30,326
+189. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount"))
+
+49
+00:00:30,954 --> 00:00:30,954
+193. clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount"))
+
+50
+00:00:31,291 --> 00:00:31,291
+197. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount"), SplitAgencyAmount, CONTINUE_ON_FAILURE)
+
+51
+00:00:31,958 --> 00:00:31,958
+201. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount"), Keys.chord(TAB))
+
+52
+00:00:32,454 --> 00:00:32,455
+205. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDescription"), CONTINUE_ON_FAILURE)
+
+53
+00:00:33,102 --> 00:00:33,102
+209. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDescription"), SplitAgencyDescription, CONTINUE_ON_FAILURE)
+
+54
+00:00:33,896 --> 00:00:33,897
+213. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE)
+
+55
+00:00:34,280 --> 00:00:34,285
+217. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE)
+
+56
+00:00:34,767 --> 00:00:34,768
+221. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyStatement"), CONTINUE_ON_FAILURE)
+
+57
+00:00:35,399 --> 00:00:35,399
+225. selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyStatement"), SplitTypePayment, false, CONTINUE_ON_FAILURE)
+
+58
+00:00:36,087 --> 00:00:36,088
+229. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_ABStatement"))
+
+59
+00:00:36,698 --> 00:00:36,700
+233. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_ABStatement"), SplitAgency, CONTINUE_ON_FAILURE)
+
+60
+00:00:37,514 --> 00:00:37,515
+237. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_ABStatement"), Keys.chord(TAB), CONTINUE_ON_FAILURE)
+
+61
+00:00:37,885 --> 00:00:37,887
+241. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatement"))
+
+62
+00:00:38,572 --> 00:00:38,572
+245. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatement"), SplitAgencyStatement, CONTINUE_ON_FAILURE)
+
+63
+00:00:39,309 --> 00:00:39,310
+249. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatement"), Keys.chord(TAB), CONTINUE_ON_FAILURE)
+
+64
+00:00:39,763 --> 00:00:39,763
+253. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount"))
+
+65
+00:00:40,364 --> 00:00:40,366
+257. clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount"))
+
+66
+00:00:40,754 --> 00:00:40,754
+261. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount"), SplitAgencyAmount, CONTINUE_ON_FAILURE)
+
+67
+00:00:41,442 --> 00:00:41,443
+265. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount"), Keys.chord(TAB))
+
+68
+00:00:41,962 --> 00:00:41,963
+269. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementDescription"), CONTINUE_ON_FAILURE)
+
+69
+00:00:42,627 --> 00:00:42,627
+273. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementDescription"), SplitAgencyStatementDescription, CONTINUE_ON_FAILURE)
+
+70
+00:00:43,399 --> 00:00:43,400
+277. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE)
+
+71
+00:00:43,722 --> 00:00:43,723
+281. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE)
+
+72
+00:00:44,153 --> 00:00:44,153
+285. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyDBComm"), CONTINUE_ON_FAILURE)
+
+73
+00:00:44,867 --> 00:00:44,868
+289. selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyDBComm"), SplitTypePayment, false, CONTINUE_ON_FAILURE)
+
+74
+00:00:45,535 --> 00:00:45,536
+293. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_DBStatement"))
+
+75
+00:00:46,341 --> 00:00:46,342
+297. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_DBStatement"), SplitAgency, CONTINUE_ON_FAILURE)
+
+76
+00:00:47,125 --> 00:00:47,126
+301. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_DBStatement"), Keys.chord(TAB), CONTINUE_ON_FAILURE)
+
+77
+00:00:47,587 --> 00:00:47,587
+305. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_SplitAgencyDBComm"))
+
+78
+00:00:48,743 --> 00:00:48,744
+309. check(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_SplitAgencyDBComm"))
+
+79
+00:00:49,173 --> 00:00:49,173
+313. verifyElementChecked(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_SplitAgencyDBComm"), 0, CONTINUE_ON_FAILURE)
+
+80
+00:00:49,825 --> 00:00:49,826
+317. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount"))
+
+81
+00:00:50,166 --> 00:00:50,166
+321. clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount"))
+
+82
+00:00:50,552 --> 00:00:50,552
+325. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount"), SplitAgencyDBCommAmount, CONTINUE_ON_FAILURE)
+
+83
+00:00:51,338 --> 00:00:51,339
+329. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount"), Keys.chord(TAB))
+
+84
+00:00:51,740 --> 00:00:51,740
+333. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommDescription"), CONTINUE_ON_FAILURE)
+
+85
+00:00:52,379 --> 00:00:52,379
+337. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommDescription"), SplitAgencyDBCommDescription, CONTINUE_ON_FAILURE)
+
+86
+00:00:53,258 --> 00:00:53,258
+341. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE)
+
+87
+00:00:53,597 --> 00:00:53,597
+345. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE)
+
+88
+00:00:53,992 --> 00:00:53,993
+349. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypeSuspense"), CONTINUE_ON_FAILURE)
+
+89
+00:00:54,709 --> 00:00:54,710
+353. selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypeSuspense"), SplitTypeSuspense, false, CONTINUE_ON_FAILURE)
+
+90
+00:00:55,396 --> 00:00:55,397
+357. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount"))
+
+91
+00:00:56,088 --> 00:00:56,090
+361. clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount"))
+
+92
+00:00:56,476 --> 00:00:56,476
+365. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount"), SplitSuspenseAmount, CONTINUE_ON_FAILURE)
+
+93
+00:00:57,220 --> 00:00:57,222
+369. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount"), Keys.chord(TAB))
+
+94
+00:00:57,718 --> 00:00:57,718
+373. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseDescription"), CONTINUE_ON_FAILURE)
+
+95
+00:00:58,450 --> 00:00:58,452
+377. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseDescription"), SplitSuspenseDescription, CONTINUE_ON_FAILURE)
+
+96
+00:00:59,197 --> 00:00:59,197
+381. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_SplitOK"), CONTINUE_ON_FAILURE)
+
+97
+00:00:59,514 --> 00:00:59,515
+385. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_SplitOK"), CONTINUE_ON_FAILURE)
+
+98
+00:00:59,926 --> 00:00:59,926
+389. waitForElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Next"), 7, CONTINUE_ON_FAILURE)
+
+99
+00:01:00,931 --> 00:01:00,933
+393. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Next"), CONTINUE_ON_FAILURE)
+
+100
+00:01:01,361 --> 00:01:01,362
+397. BatchNumber = getText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/val_BatchNumber"), CONTINUE_ON_FAILURE)
+
+101
+00:01:02,013 --> 00:01:02,014
+401. comment("Posted Payment Batch Number " + BatchNumber)
+
+102
+00:01:02,020 --> 00:01:02,020
+405. CheckRef = getText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/val_CheckRef"), CONTINUE_ON_FAILURE)
+
+103
+00:01:02,474 --> 00:01:02,474
+409. comment("Posted Payment CheckRef Number " + CheckRef)
+
+104
+00:01:02,477 --> 00:01:02,477
+413. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Post"), CONTINUE_ON_FAILURE)
+
+105
+00:01:02,956 --> 00:01:02,957
+417. verifyElementPresent(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump"), 0, CONTINUE_ON_FAILURE)
+
+106
+00:01:03,689 --> 00:01:03,689
+421. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump"), "runBatchProcess PostBatchPayment_sp", CONTINUE_ON_FAILURE)
+
+107
+00:01:04,170 --> 00:01:04,171
+425. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump"), Keys.chord(ENTER), CONTINUE_ON_FAILURE)
+
+108
+00:01:04,667 --> 00:01:04,668
+429. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/lbl_DesktopOption"), CONTINUE_ON_FAILURE)
+
+109
+00:01:05,896 --> 00:01:05,896
+433. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/opt_SuspensepPayment"), CONTINUE_ON_FAILURE)
+
+110
+00:01:06,649 --> 00:01:06,650
+437. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/opt_SuspensepPayment"), CONTINUE_ON_FAILURE)
+
+111
+00:01:07,012 --> 00:01:07,012
+441. driver = getWebDriver()
+
+112
+00:01:07,014 --> 00:01:07,014
+445. Table = driver.findElement(By.xpath("//div[@id='DesktopSuspensePayments-DesktopSuspensePaymentsScreen-DesktopSuspensePaymentsLV']//tbody"))
+
+113
+00:01:07,782 --> 00:01:07,783
+449. elementsinColumn = gw.Table.getTableElementsByColumn(Table, 9)
+
+114
+00:01:12,936 --> 00:01:12,936
+453. comment("Elements after function call to getTableElementsByColumn " + elementsinColumn)
+
+115
+00:01:12,940 --> 00:01:12,940
+457. if (elementsinColumn.contains(BatchNumber))
+
+116
+00:01:12,941 --> 00:01:12,943
+1. markPassed("Suspense Payment Batch Number Found")
+
+117
+00:01:12,943 --> 00:01:12,945
+461. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_AccountSearch"), CONTINUE_ON_FAILURE)
+
+118
+00:01:13,392 --> 00:01:13,398
+465. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/fld_SearchAccount"), SplitAccount, CONTINUE_ON_FAILURE)
+
+119
+00:01:13,893 --> 00:01:13,894
+469. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_SearchAccount"), CONTINUE_ON_FAILURE)
+
+120
+00:01:14,444 --> 00:01:14,445
+473. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_PaymentsDownArrow"), CONTINUE_ON_FAILURE)
+
+121
+00:01:15,331 --> 00:01:15,332
+477. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_PaymentsAccount"), CONTINUE_ON_FAILURE)
+
+122
+00:01:15,759 --> 00:01:15,760
+481. Table1 = driver.findElement(By.xpath("//*[@id='AccountPayments-AccountDetailPaymentsScreen-DirectBillPaymentsListDetail-AccountDBPaymentsLV']//tbody"))
+
+123
+00:01:16,602 --> 00:01:16,603
+485. elementsinColumn1 = gw.Table.getTableElementsByColumn(Table1, 8)
+
+124
+00:01:21,617 --> 00:01:21,617
+489. comment("Elements after function call to getTableElementsByColumn " + elementsinColumn1)
+
+125
+00:01:21,621 --> 00:01:21,621
+493. if (elementsinColumn1.contains(BatchNumber))
+
+126
+00:01:21,623 --> 00:01:21,624
+1. markPassed("Account Payment Batch Number Found")
+
+127
+00:01:21,625 --> 00:01:21,625
+497. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_ProducerSearch"))
+
+128
+00:01:22,124 --> 00:01:22,125
+501. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/fld_SearchProducer"), SplitAgency)
+
+129
+00:01:22,622 --> 00:01:22,622
+505. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_SearchProducer"))
+
+130
+00:01:23,161 --> 00:01:23,163
+509. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_AgencyBillPaymentsArrow"))
+
+131
+00:01:24,021 --> 00:01:24,021
+513. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_PaymentsProducer"))
+
+132
+00:01:24,410 --> 00:01:24,410
+517. Table2 = driver.findElement(By.xpath("//*[@id='AgencyBillExecutedPayments-PaymentsLV']//tbody"))
+
+133
+00:01:25,333 --> 00:01:25,333
+521. elementsinColumn2 = gw.Table.getTableElementsByColumn(Table2, 9)
+
+134
+00:01:29,345 --> 00:01:29,345
+525. comment("Elements after function call to getTableElementsByColumn " + elementsinColumn2)
+
+135
+00:01:29,349 --> 00:01:29,350
+529. if (elementsinColumn2.contains(BatchNumber))
+
+136
+00:01:29,351 --> 00:01:29,351
+1. markPassed("Agency Statement Payment Batch Number Found")
+
+137
+00:01:29,354 --> 00:01:29,354
+533. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_ProducerSearch"))
+
+138
+00:01:29,750 --> 00:01:29,750
+537. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/fld_SearchProducer"), SplitAgency)
+
+139
+00:01:30,171 --> 00:01:30,172
+541. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_SearchProducer"))
+
+140
+00:01:30,649 --> 00:01:30,650
+545. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_TransactionsProducer"))
+
+141
+00:01:31,360 --> 00:01:31,361
+549. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/Tab_PaymentsProducer"))
+
+142
+00:01:32,114 --> 00:01:32,115
+553. Table3 = driver.findElement(By.xpath("//*[@id='ProducerTransactions-ProducerTransactionsScreen-PaymentsLV']//tbody"))
+
+143
+00:01:32,846 --> 00:01:32,846
+557. elementsinColumn3 = gw.Table.getTableElementsByColumn(Table3, 7)
+
+144
+00:01:37,653 --> 00:01:37,653
+561. comment("Elements after function call to getTableElementsByColumn " + elementsinColumn3)
+
+145
+00:01:37,658 --> 00:01:37,659
+565. if (elementsinColumn3.contains(CheckRef))
+
+146
+00:01:37,660 --> 00:01:37,661
+1. markPassed("Agency DB Commission Payment CheckRef Found")
+
+147
+00:01:37,663 --> 00:01:37,664
+569. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/lbl_DesktopOption"))
+
+148
+00:01:38,152 --> 00:01:38,152
+573. callTestCase(findTestCase("BillingCenter/BatchPaymentEntry/BC_NavigateBatchPaymentEntryScreen"), [:])
+
+149
+00:01:38,216 --> 00:01:38,217
+1. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_Desktop_Actions"))
+
+150
+00:01:38,935 --> 00:01:38,935
+5. mouseOver(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/act_NewPayment"))
+
+151
+00:01:39,430 --> 00:01:39,430
+9. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_newPayment _BatchPaymentEntry"))
+
+152
+00:01:39,830 --> 00:01:39,830
+577. for (def index : (0..0))
+
+153
+00:01:39,833 --> 00:01:39,833
+1. tc_end_Time = System.currentTimeMillis()
+
+154
+00:01:39,835 --> 00:01:39,835
+5. date_tc_end_Time = dateformat.format(tc_end_Time)
+
+155
+00:01:39,837 --> 00:01:39,837
+9. (tempRowNum++)
+
+156
+00:01:39,841 --> 00:01:39,841
+13. testCaseID = testCaseContext.getTestCaseId()
+
+157
+00:01:39,843 --> 00:01:39,844
+17. testCase = findTestCase(testCaseID)
+
+158
+00:01:39,853 --> 00:01:39,853
+21. testCaseName = testCase.getName()
+
+159
+00:01:39,856 --> 00:01:39,856
+25. switch (testCaseContext.getTestCaseStatus())
+
+160
+00:01:39,859 --> 00:01:39,859
+2. (passedCnt++)
+
+161
+00:01:39,868 --> 00:01:39,868
+6. break
+
+162
+00:01:39,870 --> 00:01:39,871
+29. if (testCaseName == "GenerateAndSendReport")
+
+163
+00:01:39,873 --> 00:01:39,874
+33. if (testCaseName == "GenerateAndSaveReport")
+
+164
+00:01:39,875 --> 00:01:39,875
+37. if (testCaseName == "GenerateTimeReport")
+
+165
+00:01:39,879 --> 00:01:39,880
+41. if (!(testCaseName.contains("Submission")) && !(testCaseName.contains("Issurance")) && !(testCaseName.contains("NewAccount")) && !(testCaseName.contains("FNOL")) && !(testCaseName.contains("QuickClaim")) && !(testCaseName.contains("verify")))
+
+166
+00:01:42,220 --> 00:01:42,220
+1. if (Env_TestCaseId == testCaseContext.getTestCaseId())
+
+167
+00:01:42,224 --> 00:01:42,224
+2. iteration = 1
+
+168
+00:01:42,231 --> 00:01:42,233
+5. Env_Iteration = iteration
+
+169
+00:01:42,239 --> 00:01:42,239
+9. Env_TestCaseId = testCaseContext.getTestCaseId()
+
+170
+00:01:42,241 --> 00:01:42,241
+13. Env_TestCaseVariables = testCaseContext.getTestCaseVariables()
+
+171
+00:01:42,243 --> 00:01:42,243
+17. tc_start_Time = System.currentTimeMillis()
+
+172
+00:01:42,246 --> 00:01:42,247
+21. date_tc_start_Time = dateformat.format(tc_start_Time)
+

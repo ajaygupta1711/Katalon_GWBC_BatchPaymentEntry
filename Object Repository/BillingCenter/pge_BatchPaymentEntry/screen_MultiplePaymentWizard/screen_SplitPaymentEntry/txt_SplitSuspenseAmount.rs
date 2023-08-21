@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_SplitSuspenseAmount</name>
+   <tag></tag>
+   <elementGuidId>ca5f8ae4-0cd7-43b1-9e7e-91dcad6f17e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name='NewMultiPaymentSplitExtPopup-NewMultiPaymentSplitExtScreen-NewMultiPaymentLV-5-Amount']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='BatchPaymentEntryWizard-NewBatchPaymentScreen-NewMultiPaymentLV-0-Amount']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

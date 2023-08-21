@@ -1,0 +1,220 @@
+1
+00:00:00,531 --> 00:00:00,532
+1. selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_Source"), Source, false, CONTINUE_ON_FAILURE)
+
+2
+00:00:01,382 --> 00:00:01,383
+5. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_BatchAmount"), BatchAmount, CONTINUE_ON_FAILURE)
+
+3
+00:00:02,995 --> 00:00:02,995
+9. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_BatchAmount"), Keys.chord(TAB))
+
+4
+00:00:03,412 --> 00:00:03,412
+13. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_Split"), CONTINUE_ON_FAILURE)
+
+5
+00:00:04,026 --> 00:00:04,026
+17. check(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_Split"), CONTINUE_ON_FAILURE)
+
+6
+00:00:04,563 --> 00:00:04,564
+21. selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_Type"), Type, false, CONTINUE_ON_FAILURE)
+
+7
+00:00:05,562 --> 00:00:05,563
+25. clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount"), CONTINUE_ON_FAILURE)
+
+8
+00:00:06,557 --> 00:00:06,558
+29. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount"), Amount, CONTINUE_ON_FAILURE)
+
+9
+00:00:07,654 --> 00:00:07,655
+33. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount"), Keys.chord(TAB))
+
+10
+00:00:08,126 --> 00:00:08,126
+37. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_CheckRef"), CONTINUE_ON_FAILURE)
+
+11
+00:00:09,424 --> 00:00:09,424
+41. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_CheckRef"), CheckRef, CONTINUE_ON_FAILURE)
+
+12
+00:00:10,230 --> 00:00:10,230
+45. setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Description"), Description, CONTINUE_ON_FAILURE)
+
+13
+00:00:11,333 --> 00:00:11,334
+49. selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_PaymentInstrument"), PaymentInstrument, false, CONTINUE_ON_FAILURE)
+
+14
+00:00:12,113 --> 00:00:12,113
+53. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Next"), CONTINUE_ON_FAILURE)
+
+15
+00:00:12,582 --> 00:00:12,583
+57. BatchNumber = getText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/val_BatchNumber"), CONTINUE_ON_FAILURE)
+
+16
+00:00:13,251 --> 00:00:13,252
+61. comment("Posted Payment Batch Number " + BatchNumber)
+
+17
+00:00:13,258 --> 00:00:13,258
+65. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Post"), CONTINUE_ON_FAILURE)
+
+18
+00:00:13,641 --> 00:00:13,642
+69. verifyElementPresent(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump"), 0)
+
+19
+00:00:14,279 --> 00:00:14,279
+73. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump"), "runBatchProcess PostBatchPayment_sp")
+
+20
+00:00:14,740 --> 00:00:14,741
+77. sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump"), Keys.chord(ENTER))
+
+21
+00:00:15,217 --> 00:00:15,217
+81. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/lbl_DesktopOption"))
+
+22
+00:00:15,995 --> 00:00:15,995
+85. verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/opt_SuspensepPayment"))
+
+23
+00:00:16,687 --> 00:00:16,687
+89. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/opt_SuspensepPayment"))
+
+24
+00:00:17,102 --> 00:00:17,104
+93. driver = getWebDriver()
+
+25
+00:00:17,107 --> 00:00:17,107
+97. Table = driver.findElement(By.xpath("//div[@id='DesktopSuspensePayments-DesktopSuspensePaymentsScreen-DesktopSuspensePaymentsLV']//tbody"))
+
+26
+00:00:17,887 --> 00:00:17,888
+101. elementsinColumn = gw.Table.getTableElementsByColumn(Table, 9)
+
+27
+00:00:23,028 --> 00:00:23,029
+105. comment("Elements after function call to getTableElementsByColumn " + elementsinColumn)
+
+28
+00:00:23,031 --> 00:00:23,031
+109. if (elementsinColumn.contains(BatchNumber))
+
+29
+00:00:23,036 --> 00:00:23,038
+1. markPassed("Suspense Payment Batch Number Found")
+
+30
+00:00:23,039 --> 00:00:23,039
+113. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/lbl_DesktopOption"))
+
+31
+00:00:23,491 --> 00:00:23,493
+117. callTestCase(findTestCase("BillingCenter/BatchPaymentEntry/BC_NavigateBatchPaymentEntryScreen"), [:])
+
+32
+00:00:23,557 --> 00:00:23,559
+1. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_Desktop_Actions"))
+
+33
+00:00:24,332 --> 00:00:24,333
+5. mouseOver(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/act_NewPayment"))
+
+34
+00:00:24,802 --> 00:00:24,802
+9. click(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_newPayment _BatchPaymentEntry"))
+
+35
+00:00:25,185 --> 00:00:25,185
+121. for (def index : (0..0))
+
+36
+00:00:25,188 --> 00:00:25,188
+1. tc_end_Time = System.currentTimeMillis()
+
+37
+00:00:25,191 --> 00:00:25,192
+5. date_tc_end_Time = dateformat.format(tc_end_Time)
+
+38
+00:00:25,193 --> 00:00:25,194
+9. (tempRowNum++)
+
+39
+00:00:25,195 --> 00:00:25,195
+13. testCaseID = testCaseContext.getTestCaseId()
+
+40
+00:00:25,196 --> 00:00:25,196
+17. testCase = findTestCase(testCaseID)
+
+41
+00:00:25,201 --> 00:00:25,201
+21. testCaseName = testCase.getName()
+
+42
+00:00:25,202 --> 00:00:25,202
+25. switch (testCaseContext.getTestCaseStatus())
+
+43
+00:00:25,209 --> 00:00:25,209
+2. (passedCnt++)
+
+44
+00:00:25,217 --> 00:00:25,217
+6. break
+
+45
+00:00:25,221 --> 00:00:25,223
+29. if (testCaseName == "GenerateAndSendReport")
+
+46
+00:00:25,223 --> 00:00:25,223
+33. if (testCaseName == "GenerateAndSaveReport")
+
+47
+00:00:25,223 --> 00:00:25,228
+37. if (testCaseName == "GenerateTimeReport")
+
+48
+00:00:25,231 --> 00:00:25,232
+41. if (!(testCaseName.contains("Submission")) && !(testCaseName.contains("Issurance")) && !(testCaseName.contains("NewAccount")) && !(testCaseName.contains("FNOL")) && !(testCaseName.contains("QuickClaim")) && !(testCaseName.contains("verify")))
+
+49
+00:00:27,465 --> 00:00:27,466
+1. if (Env_TestCaseId == testCaseContext.getTestCaseId())
+
+50
+00:00:27,467 --> 00:00:27,468
+2. iteration = 1
+
+51
+00:00:27,470 --> 00:00:27,470
+5. Env_Iteration = iteration
+
+52
+00:00:27,471 --> 00:00:27,472
+9. Env_TestCaseId = testCaseContext.getTestCaseId()
+
+53
+00:00:27,473 --> 00:00:27,473
+13. Env_TestCaseVariables = testCaseContext.getTestCaseVariables()
+
+54
+00:00:27,475 --> 00:00:27,475
+17. tc_start_Time = System.currentTimeMillis()
+
+55
+00:00:27,478 --> 00:00:27,478
+21. date_tc_start_Time = dateformat.format(tc_start_Time)
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Fill in the Suspense Payment Details on the Multiple Payment Entry Wizard screen</description>
+   <name>BC_MultiplePaymentEntryandVerification_SuspenseLevel</name>
+   <tag></tag>
+   <comment>Posted Payment Batch Number &quot; + BatchNumber
+Elements after function call to getTableElementsByColumn &quot; + elementsinColumn</comment>
+   <testCaseGuid>34770a55-be18-4388-92b3-625e1caca699</testCaseGuid>
+   <variable>
+      <defaultValue>['Cash Accounting']</defaultValue>
+      <description></description>
+      <id>57d23996-a0fc-43e1-aa77-8892479ed108</id>
+      <masked>false</masked>
+      <name>Source</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>121adc75-695e-4d4a-bbdd-f6e1520927c9</id>
+      <masked>false</masked>
+      <name>BatchAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>384adb07-2ea3-40ab-ac75-0ebc26e6d317</id>
+      <masked>false</masked>
+      <name>Amount</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>7632b675-c230-4963-acb1-7bf3ef0fc378</id>
+      <masked>false</masked>
+      <name>CheckRef</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a7fc7b6e-8b27-400c-a9d2-7d27127ac9ab</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+   <variable>
+      <defaultValue>['Check']</defaultValue>
+      <description></description>
+      <id>e20b2b2c-d42a-4f50-b08e-69d096a799ac</id>
+      <masked>false</masked>
+      <name>PaymentInstrument</name>
+   </variable>
+   <variable>
+      <defaultValue>['Payment']</defaultValue>
+      <description></description>
+      <id>626b6d2a-ab10-4276-8885-64f81d3d50e0</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

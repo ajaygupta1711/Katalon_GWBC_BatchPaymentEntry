@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Amount</name>
+   <tag></tag>
+   <elementGuidId>1c4bdc41-364c-4303-b211-746f53e855c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name='BatchPaymentEntryWizard-NewBatchPaymentScreen-NewMultiPaymentLV-0-Amount']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='BatchPaymentEntryWizard-NewBatchPaymentScreen-NewMultiPaymentLV-0-Amount']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

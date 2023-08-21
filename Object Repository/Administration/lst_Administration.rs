@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lst_Administration</name>
+   <tag></tag>
+   <elementGuidId>463fbba6-7b62-40a4-b7f3-f9c4ee888852</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@id=&quot;TabBar-AdminTab&quot;]/div[1]/following::div[@class='gw-action--expand-button'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@id=&quot;TabBar-AdminTab&quot;]/div[1]/following::div[@class='gw-action--expand-button'])[1]</value>
+   </webElementProperties>
+</WebElementEntity>

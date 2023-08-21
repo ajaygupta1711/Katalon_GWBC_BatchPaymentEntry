@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the posted payments on agency level</description>
+   <name>BC_VerifyPostedPayments_AgencyLevel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be2fa0d9-08a0-4001-af81-e277d510c308</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>598bba42-d707-4b27-8ddc-47f16013cae2</id>
+      <masked>false</masked>
+      <name>AgencyCode</name>
+   </variable>
+</TestCaseEntity>

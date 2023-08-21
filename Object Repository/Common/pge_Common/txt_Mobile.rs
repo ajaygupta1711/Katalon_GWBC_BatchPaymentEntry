@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Mobile</name>
+   <tag></tag>
+   <elementGuidId>d319755c-5145-4dac-8165-75b6de73c136</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@name,'NewContactPopup-ContactDetailScreen-ContactBasicsDV-PersonContactInfoInputSet-Cell-GlobalPhoneInputSet-NationalSubscriberNumber')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@name,'NewContactPopup-ContactDetailScreen-ContactBasicsDV-PersonContactInfoInputSet-Cell-GlobalPhoneInputSet-NationalSubscriberNumber')]</value>
+   </webElementProperties>
+</WebElementEntity>

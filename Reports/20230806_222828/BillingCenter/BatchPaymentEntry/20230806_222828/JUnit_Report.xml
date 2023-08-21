@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BatchPaymentEntry" time="119.521" tests="3" failures="0" errors="0">
+   <testsuite name="BatchPaymentEntry" tests="3" failures="0" errors="0" time="119.521" timestamp="2023-08-06 22:28:31" hostname="pyramid-6 - WSAMZN-EFE5A9SD.EMCINS.com" id="Test Suites/BillingCenter/BatchPaymentEntry">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\QA Scripts\\emc.guidewire.katalon.updated\\GW10 Automation\\Reports\\20230806_222828\\BillingCenter\\BatchPaymentEntry\\20230806_222828"/>
+         <property name="logFiles" value="C:\\QA Scripts\\emc.guidewire.katalon.updated\\GW10 Automation\\Reports\\20230806_222828\\BillingCenter\\BatchPaymentEntry\\20230806_222828\\execution0.log"/>
+         <property name="attachments" value="C:\\QA Scripts\\emc.guidewire.katalon.updated\\GW10 Automation\\Reports\\20230806_222828\\BillingCenter\\BatchPaymentEntry\\20230806_222828/videos\\test_1.avi, C:\\QA Scripts\\emc.guidewire.katalon.updated\\GW10 Automation\\Reports\\20230806_222828\\BillingCenter\\BatchPaymentEntry\\20230806_222828/videos\\test_2.avi, C:\\QA Scripts\\emc.guidewire.katalon.updated\\GW10 Automation\\Reports\\20230806_222828\\BillingCenter\\BatchPaymentEntry\\20230806_222828/videos\\test_3.avi"/>
+         <property name="hostName" value="pyramid-6 - WSAMZN-EFE5A9SD.EMCINS.com"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="10.66.10.112"/>
+         <property name="sessionId" value="8300effe47f5f997bd464ef636ea6dfc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2016"/>
+      </properties>
+      <testcase name="Test Cases/BillingCenter/Common/BC_Login" time="13.689" classname="Test Cases/BillingCenter/Common/BC_Login" status="PASSED">
+         <system-out><![CDATA[2023-08-06 22:28:33 - [TEST_CASE][PASSED] - Test Cases/BillingCenter/Common/BC_Login: Test Cases/BillingCenter/Common/BC_Login
+
+2023-08-06 22:28:33 - [TEST_STEP][PASSED] - Start listener action : gwBeforeTestCase: null
+
+2023-08-06 22:28:33 - [TEST_STEP][PASSED] - if (Env_TestCaseId == testCaseContext.getTestCaseId()): null
+
+2023-08-06 22:28:33 - [TEST_STEP][PASSED] - else: null
+
+2023-08-06 22:28:33 - [TEST_STEP][PASSED] - iteration = 1: null
+
+2023-08-06 22:28:33 - [TEST_STEP][PASSED] - Env_Iteration = iteration: null
+
+2023-08-06 22:28:33 - [TEST_STEP][PASSED] - Env_TestCaseId = testCaseContext.getTestCaseId(): null
+
+2023-08-06 22:28:33 - [TEST_STEP][PASSED] - Env_TestCaseVariables = testCaseContext.getTestCaseVariables(): null
+
+2023-08-06 22:28:33 - [TEST_STEP][PASSED] - tc_start_Time = System.currentTimeMillis(): null
+
+2023-08-06 22:28:33 - [TEST_STEP][PASSED] - date_tc_start_Time = dateformat.format(tc_start_Time): null
+
+2023-08-06 22:28:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/GW_Login"), ["GW_URL":URL_BC, "UserName":UserName, "Password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/GW_Login' successfully
+
+2023-08-06 22:28:33 - [TEST_CASE][PASSED] - Test Cases/Common/GW_Login: Test Cases/Common/GW_Login
+
+2023-08-06 22:28:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-06 22:28:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-06 22:28:34 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-08-06 22:28:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-06 22:28:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-06 22:28:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-06 22:28:38 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-06 22:28:38 - [TEST_STEP][PASSED] - navigateToUrl(GW_URL): Navigate to 'https://bc-qa2-corecon.emc.dev-1.us-east-1.guidewire.net' successfully
+
+2023-08-06 22:28:39 - [MESSAGE][PASSED] - Navigate to 'https://bc-qa2-corecon.emc.dev-1.us-east-1.guidewire.net' successfully
+
+2023-08-06 22:28:39 - [TEST_STEP][PASSED] - gw.Text.SetText(findTestObject("Common/pge_LoginScreen/txt_UserName"), UserName): gw.Text.SetText is PASSED
+
+2023-08-06 22:28:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-06 22:28:40 - [MESSAGE][PASSED] - Object 'Object Repository/Common/pge_LoginScreen/txt_UserName' is visible
+
+2023-08-06 22:28:40 - [MESSAGE][PASSED] - Object 'Object Repository/Common/pge_LoginScreen/txt_UserName' is clickable
+
+2023-08-06 22:28:41 - [MESSAGE][PASSED] - Text 'smokeuser_np@emcins.com' is set on object 'Object Repository/Common/pge_LoginScreen/txt_UserName'
+
+2023-08-06 22:28:41 - [MESSAGE][PASSED] - gw.Text.SetText is PASSED
+
+2023-08-06 22:28:41 - [TEST_STEP][PASSED] - gw.Text.SetText(findTestObject("Common/pge_LoginScreen/txt_Password"), Password): gw.Text.SetText is PASSED
+
+2023-08-06 22:28:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-06 22:28:41 - [MESSAGE][PASSED] - Object 'Object Repository/Common/pge_LoginScreen/txt_Password' is visible
+
+2023-08-06 22:28:41 - [MESSAGE][PASSED] - Object 'Object Repository/Common/pge_LoginScreen/txt_Password' is clickable
+
+2023-08-06 22:28:42 - [MESSAGE][PASSED] - Text 'gw' is set on object 'Object Repository/Common/pge_LoginScreen/txt_Password'
+
+2023-08-06 22:28:42 - [MESSAGE][PASSED] - gw.Text.SetText is PASSED
+
+2023-08-06 22:28:42 - [TEST_STEP][PASSED] - gw.Actions.Click(findTestObject("Common/pge_LoginScreen/btn_LogIn")): gw.Actions.Click is PASSED
+
+2023-08-06 22:28:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-06 22:28:42 - [MESSAGE][PASSED] - Object 'Object Repository/Common/pge_LoginScreen/btn_LogIn' is clickable
+
+2023-08-06 22:28:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/pge_LoginScreen/btn_LogIn' is clicked on
+
+2023-08-06 22:28:43 - [MESSAGE][PASSED] - gw.Actions.Click is PASSED
+
+2023-08-06 22:28:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/GW_Login' successfully
+
+2023-08-06 22:28:43 - [TEST_STEP][PASSED] - gw.Actions.NavigateByTab("Desktop"): gw.Actions.NavigateByTab is PASSED
+
+2023-08-06 22:28:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-06 22:28:43 - [MESSAGE][PASSED] - Object 'Object Repository/Common/pge_Common/wel_TabBar' is clickable
+
+2023-08-06 22:28:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/pge_Common/wel_TabBar' is clicked on
+
+2023-08-06 22:28:44 - [MESSAGE][PASSED] - gw.Actions.NavigateByTab is PASSED
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Common/pge_Common/wel_MyActivities"), gWaitTimeOut): Object 'Object Repository/Common/pge_Common/wel_MyActivities' is present
+
+2023-08-06 22:28:44 - [MESSAGE][PASSED] - Object 'Object Repository/Common/pge_Common/wel_MyActivities' is present
+
+2023-08-06 22:28:44 - [TEST_STEP][ERROR] - Start listener action : gwAfterTestCase: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at GWListener.invokeMethod(GWListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691341108127.run(TempTestSuite1691341108127.groovy:39)
+Caused by: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at common.Excel.getColumnNumber(Excel.groovy:69)
+	at common.Excel.WirteToExcel(Excel.groovy:95)
+	at common.Excel$WirteToExcel$0.call(Unknown Source)
+	at GWListener.gwAfterTestCase(GWListener.groovy:137)
+	... 14 more
+
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - tc_end_Time = System.currentTimeMillis(): null
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - date_tc_end_Time = dateformat.format(tc_end_Time): null
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - (tempRowNum++): null
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - testCaseID = testCaseContext.getTestCaseId(): null
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseID): null
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - testCaseName = testCase.getName(): null
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - switch (testCaseContext.getTestCaseStatus()): null
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - case "PASSED":: null
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - (passedCnt++): null
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - break: null
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - if (testCaseName == "GenerateAndSendReport"): null
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - if (testCaseName == "GenerateAndSaveReport"): null
+
+2023-08-06 22:28:44 - [TEST_STEP][PASSED] - if (testCaseName == "GenerateTimeReport"): null
+
+2023-08-06 22:28:44 - [TEST_STEP][ERROR] - if (!(testCaseName.contains("Submission")) && !(testCaseName.contains("Issurance")) && !(testCaseName.contains("NewAccount")) && !(testCaseName.contains("FNOL")) && !(testCaseName.contains("QuickClaim")) && !(testCaseName.contains("verify"))): org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at GWListener.invokeMethod(GWListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691341108127.run(TempTestSuite1691341108127.groovy:39)
+Caused by: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at common.Excel.getColumnNumber(Excel.groovy:69)
+	at common.Excel.WirteToExcel(Excel.groovy:95)
+	at common.Excel$WirteToExcel$0.call(Unknown Source)
+	at GWListener.gwAfterTestCase(GWListener.groovy:137)
+	... 14 more
+
+
+2023-08-06 22:28:44 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at GWListener.invokeMethod(GWListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691341108127.run(TempTestSuite1691341108127.groovy:39)
+Caused by: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at common.Excel.getColumnNumber(Excel.groovy:69)
+	at common.Excel.WirteToExcel(Excel.groovy:95)
+	at common.Excel$WirteToExcel$0.call(Unknown Source)
+	at GWListener.gwAfterTestCase(GWListener.groovy:137)
+	... 14 more
+
+
+2023-08-06 22:28:47 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/BillingCenter/Common/BC_Login' .
+
+2023-08-06 22:28:47 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/BillingCenter/Common/BC_Login' .
+[[ATTACHMENT|C:\\QA Scripts\\emc.guidewire.katalon.updated\\GW10 Automation\\Reports\\20230806_222828\\BillingCenter\\BatchPaymentEntry\\20230806_222828/videos\\test_1.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BillingCenter/BatchPaymentEntry/BC_NavigateBatchPaymentEntryScreen" time="3.98" classname="Test Cases/BillingCenter/BatchPaymentEntry/BC_NavigateBatchPaymentEntryScreen" status="PASSED">
+         <system-out><![CDATA[2023-08-06 22:28:47 - [TEST_CASE][PASSED] - Test Cases/BillingCenter/BatchPaymentEntry/BC_NavigateBatchPaymentEntryScreen: Test Cases/BillingCenter/BatchPaymentEntry/BC_NavigateBatchPaymentEntryScreen
+
+2023-08-06 22:28:47 - [TEST_STEP][PASSED] - Start listener action : gwBeforeTestCase: null
+
+2023-08-06 22:28:47 - [TEST_STEP][PASSED] - if (Env_TestCaseId == testCaseContext.getTestCaseId()): null
+
+2023-08-06 22:28:47 - [TEST_STEP][PASSED] - else: null
+
+2023-08-06 22:28:47 - [TEST_STEP][PASSED] - iteration = 1: null
+
+2023-08-06 22:28:47 - [TEST_STEP][PASSED] - Env_Iteration = iteration: null
+
+2023-08-06 22:28:47 - [TEST_STEP][PASSED] - Env_TestCaseId = testCaseContext.getTestCaseId(): null
+
+2023-08-06 22:28:47 - [TEST_STEP][PASSED] - Env_TestCaseVariables = testCaseContext.getTestCaseVariables(): null
+
+2023-08-06 22:28:47 - [TEST_STEP][PASSED] - tc_start_Time = System.currentTimeMillis(): null
+
+2023-08-06 22:28:47 - [TEST_STEP][PASSED] - date_tc_start_Time = dateformat.format(tc_start_Time): null
+
+2023-08-06 22:28:47 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_Desktop_Actions")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_Desktop_Actions' is clicked on
+
+2023-08-06 22:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_Desktop_Actions' is clicked on
+
+2023-08-06 22:28:47 - [TEST_STEP][PASSED] - mouseOver(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/act_NewPayment")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/pge_Navigation/act_NewPayment' is hovered
+
+2023-08-06 22:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/pge_Navigation/act_NewPayment' is hovered
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_newPayment _BatchPaymentEntry")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_newPayment _BatchPaymentEntry' is clicked on
+
+2023-08-06 22:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_newPayment _BatchPaymentEntry' is clicked on
+
+2023-08-06 22:28:48 - [TEST_STEP][ERROR] - Start listener action : gwAfterTestCase: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at GWListener.invokeMethod(GWListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691341108127.run(TempTestSuite1691341108127.groovy:39)
+Caused by: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at common.Excel.getColumnNumber(Excel.groovy:69)
+	at common.Excel.WirteToExcel(Excel.groovy:95)
+	at common.Excel$WirteToExcel$0.call(Unknown Source)
+	at GWListener.gwAfterTestCase(GWListener.groovy:137)
+	... 14 more
+
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - tc_end_Time = System.currentTimeMillis(): null
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - date_tc_end_Time = dateformat.format(tc_end_Time): null
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - (tempRowNum++): null
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - testCaseID = testCaseContext.getTestCaseId(): null
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseID): null
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - testCaseName = testCase.getName(): null
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - switch (testCaseContext.getTestCaseStatus()): null
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - case "PASSED":: null
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - (passedCnt++): null
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - break: null
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - if (testCaseName == "GenerateAndSendReport"): null
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - if (testCaseName == "GenerateAndSaveReport"): null
+
+2023-08-06 22:28:48 - [TEST_STEP][PASSED] - if (testCaseName == "GenerateTimeReport"): null
+
+2023-08-06 22:28:48 - [TEST_STEP][ERROR] - if (!(testCaseName.contains("Submission")) && !(testCaseName.contains("Issurance")) && !(testCaseName.contains("NewAccount")) && !(testCaseName.contains("FNOL")) && !(testCaseName.contains("QuickClaim")) && !(testCaseName.contains("verify"))): org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at GWListener.invokeMethod(GWListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691341108127.run(TempTestSuite1691341108127.groovy:39)
+Caused by: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at common.Excel.getColumnNumber(Excel.groovy:69)
+	at common.Excel.WirteToExcel(Excel.groovy:95)
+	at common.Excel$WirteToExcel$0.call(Unknown Source)
+	at GWListener.gwAfterTestCase(GWListener.groovy:137)
+	... 14 more
+
+
+2023-08-06 22:28:48 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at GWListener.invokeMethod(GWListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691341108127.run(TempTestSuite1691341108127.groovy:39)
+Caused by: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at common.Excel.getColumnNumber(Excel.groovy:69)
+	at common.Excel.WirteToExcel(Excel.groovy:95)
+	at common.Excel$WirteToExcel$0.call(Unknown Source)
+	at GWListener.gwAfterTestCase(GWListener.groovy:137)
+	... 14 more
+
+
+2023-08-06 22:28:51 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/BillingCenter/BatchPaymentEntry/BC_NavigateBatchPaymentEntryScreen' .
+
+2023-08-06 22:28:51 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/BillingCenter/BatchPaymentEntry/BC_NavigateBatchPaymentEntryScreen' .
+[[ATTACHMENT|C:\\QA Scripts\\emc.guidewire.katalon.updated\\GW10 Automation\\Reports\\20230806_222828\\BillingCenter\\BatchPaymentEntry\\20230806_222828/videos\\test_2.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BillingCenter/BatchPaymentEntry/BC_MultiplePaymentEntryandVerification_Split" time="99.92" classname="Test Cases/BillingCenter/BatchPaymentEntry/BC_MultiplePaymentEntryandVerification_Split" status="PASSED">
+         <system-out><![CDATA[2023-08-06 22:28:51 - [TEST_CASE][PASSED] - Test Cases/BillingCenter/BatchPaymentEntry/BC_MultiplePaymentEntryandVerification_Split: Test Cases/BillingCenter/BatchPaymentEntry/BC_MultiplePaymentEntryandVerification_Split
+
+2023-08-06 22:28:51 - [TEST_STEP][PASSED] - Start listener action : gwBeforeTestCase: null
+
+2023-08-06 22:28:51 - [TEST_STEP][PASSED] - if (Env_TestCaseId == testCaseContext.getTestCaseId()): null
+
+2023-08-06 22:28:51 - [TEST_STEP][PASSED] - else: null
+
+2023-08-06 22:28:51 - [TEST_STEP][PASSED] - iteration = 1: null
+
+2023-08-06 22:28:51 - [TEST_STEP][PASSED] - Env_Iteration = iteration: null
+
+2023-08-06 22:28:51 - [TEST_STEP][PASSED] - Env_TestCaseId = testCaseContext.getTestCaseId(): null
+
+2023-08-06 22:28:51 - [TEST_STEP][PASSED] - Env_TestCaseVariables = testCaseContext.getTestCaseVariables(): null
+
+2023-08-06 22:28:51 - [TEST_STEP][PASSED] - tc_start_Time = System.currentTimeMillis(): null
+
+2023-08-06 22:28:51 - [TEST_STEP][PASSED] - date_tc_start_Time = dateformat.format(tc_start_Time): null
+
+2023-08-06 22:28:52 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_Source"), Source, false, CONTINUE_ON_FAILURE): All options with label 'Branch' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_Source' 
+
+2023-08-06 22:28:53 - [MESSAGE][PASSED] - All options with label 'Branch' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_Source' 
+
+2023-08-06 22:28:53 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_BatchAmount"), BatchAmount, CONTINUE_ON_FAILURE): Text '60' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_BatchAmount'
+
+2023-08-06 22:28:55 - [MESSAGE][PASSED] - Text '60' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_BatchAmount'
+
+2023-08-06 22:28:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_BatchAmount"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_BatchAmount'
+
+2023-08-06 22:28:55 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_BatchAmount'
+
+2023-08-06 22:28:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_Split"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_Split' is visible
+
+2023-08-06 22:28:56 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_Split' is visible
+
+2023-08-06 22:28:56 - [TEST_STEP][PASSED] - check(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_Split"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_Split' is checked
+
+2023-08-06 22:28:56 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_Split' is checked
+
+2023-08-06 22:28:56 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_Type"), Type, false, CONTINUE_ON_FAILURE): All options with label 'Split' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_Type' 
+
+2023-08-06 22:28:57 - [MESSAGE][PASSED] - All options with label 'Split' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_Type' 
+
+2023-08-06 22:28:57 - [TEST_STEP][PASSED] - clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount' is cleared
+
+2023-08-06 22:28:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount' is cleared
+
+2023-08-06 22:28:58 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount"), Amount, CONTINUE_ON_FAILURE): Text '60' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount'
+
+2023-08-06 22:28:59 - [MESSAGE][PASSED] - Text '60' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount'
+
+2023-08-06 22:28:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount'
+
+2023-08-06 22:29:00 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_Amount'
+
+2023-08-06 22:29:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_CheckRef"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_CheckRef' is visible
+
+2023-08-06 22:29:01 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_CheckRef' is visible
+
+2023-08-06 22:29:01 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_CheckRef"), CheckRef, CONTINUE_ON_FAILURE): Text '9887765432' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_CheckRef'
+
+2023-08-06 22:29:01 - [MESSAGE][PASSED] - Text '9887765432' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/txt_CheckRef'
+
+2023-08-06 22:29:01 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_PaymentInstrument"), PaymentInstrument, false, CONTINUE_ON_FAILURE): All options with label 'Check' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_PaymentInstrument' 
+
+2023-08-06 22:29:02 - [MESSAGE][PASSED] - All options with label 'Check' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/lst_PaymentInstrument' 
+
+2023-08-06 22:29:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_Split"), STOP_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_Split' is visible
+
+2023-08-06 22:29:02 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_Split' is visible
+
+2023-08-06 22:29:02 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_Split"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_Split' is clicked on
+
+2023-08-06 22:29:03 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_Split' is clicked on
+
+2023-08-06 22:29:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is visible
+
+2023-08-06 22:29:04 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is visible
+
+2023-08-06 22:29:04 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is clicked on
+
+2023-08-06 22:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is clicked on
+
+2023-08-06 22:29:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAccount"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAccount' is visible
+
+2023-08-06 22:29:05 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAccount' is visible
+
+2023-08-06 22:29:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAccount"), SplitTypePayment, false, CONTINUE_ON_FAILURE): All options with label 'Payment' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAccount' 
+
+2023-08-06 22:29:05 - [MESSAGE][PASSED] - All options with label 'Payment' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAccount' 
+
+2023-08-06 22:29:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccount")): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccount' is visible
+
+2023-08-06 22:29:06 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccount' is visible
+
+2023-08-06 22:29:06 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccount"), SplitAccount, CONTINUE_ON_FAILURE): Text '3062523' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccount'
+
+2023-08-06 22:29:07 - [MESSAGE][PASSED] - Text '3062523' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccount'
+
+2023-08-06 22:29:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccount"), Keys.chord(TAB), CONTINUE_ON_FAILURE): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccount'
+
+2023-08-06 22:29:07 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccount'
+
+2023-08-06 22:29:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount"), STOP_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount' is visible
+
+2023-08-06 22:29:08 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount' is visible
+
+2023-08-06 22:29:08 - [TEST_STEP][PASSED] - clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount")): Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount' is cleared
+
+2023-08-06 22:29:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount' is cleared
+
+2023-08-06 22:29:08 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount"), SplitAccountAmount): Text '10' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount'
+
+2023-08-06 22:29:09 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount'
+
+2023-08-06 22:29:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount'
+
+2023-08-06 22:29:10 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountAmount'
+
+2023-08-06 22:29:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountDescription"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountDescription' is visible
+
+2023-08-06 22:29:10 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountDescription' is visible
+
+2023-08-06 22:29:10 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountDescription"), SplitAccountDescription, CONTINUE_ON_FAILURE): Text 'Payment on account level' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountDescription'
+
+2023-08-06 22:29:11 - [MESSAGE][PASSED] - Text 'Payment on account level' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAccountDescription'
+
+2023-08-06 22:29:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is visible
+
+2023-08-06 22:29:11 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is visible
+
+2023-08-06 22:29:11 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is clicked on
+
+2023-08-06 22:29:12 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is clicked on
+
+2023-08-06 22:29:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentInvoice"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentInvoice' is visible
+
+2023-08-06 22:29:12 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentInvoice' is visible
+
+2023-08-06 22:29:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentInvoice"), SplitTypePayment, false, CONTINUE_ON_FAILURE): All options with label 'Payment' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentInvoice' 
+
+2023-08-06 22:29:13 - [MESSAGE][PASSED] - All options with label 'Payment' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentInvoice' 
+
+2023-08-06 22:29:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoice")): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoice' is visible
+
+2023-08-06 22:29:13 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoice' is visible
+
+2023-08-06 22:29:13 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoice"), SplitInvoice, CONTINUE_ON_FAILURE): Text '7000000702' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoice'
+
+2023-08-06 22:29:14 - [MESSAGE][PASSED] - Text '7000000702' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoice'
+
+2023-08-06 22:29:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoice"), Keys.chord(TAB), CONTINUE_ON_FAILURE): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoice'
+
+2023-08-06 22:29:15 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoice'
+
+2023-08-06 22:29:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount")): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount' is visible
+
+2023-08-06 22:29:15 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount' is visible
+
+2023-08-06 22:29:15 - [TEST_STEP][PASSED] - clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount")): Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount' is cleared
+
+2023-08-06 22:29:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount' is cleared
+
+2023-08-06 22:29:16 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount"), SplitInvoiceAmount, CONTINUE_ON_FAILURE): Text '10' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount'
+
+2023-08-06 22:29:16 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount'
+
+2023-08-06 22:29:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount'
+
+2023-08-06 22:29:17 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceAmount'
+
+2023-08-06 22:29:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceDescription"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceDescription' is visible
+
+2023-08-06 22:29:17 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceDescription' is visible
+
+2023-08-06 22:29:17 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceDescription"), SplitInvoiceDescription, CONTINUE_ON_FAILURE): Text 'Payment on Invoice level' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceDescription'
+
+2023-08-06 22:29:18 - [MESSAGE][PASSED] - Text 'Payment on Invoice level' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitInvoiceDescription'
+
+2023-08-06 22:29:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is visible
+
+2023-08-06 22:29:19 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is visible
+
+2023-08-06 22:29:19 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is clicked on
+
+2023-08-06 22:29:19 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is clicked on
+
+2023-08-06 22:29:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgency"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgency' is visible
+
+2023-08-06 22:29:20 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgency' is visible
+
+2023-08-06 22:29:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgency"), SplitTypePayment, false, CONTINUE_ON_FAILURE): All options with label 'Payment' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgency' 
+
+2023-08-06 22:29:20 - [MESSAGE][PASSED] - All options with label 'Payment' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgency' 
+
+2023-08-06 22:29:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgency")): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgency' is visible
+
+2023-08-06 22:29:21 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgency' is visible
+
+2023-08-06 22:29:21 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgency"), SplitAgency, CONTINUE_ON_FAILURE): Text 'C0010' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgency'
+
+2023-08-06 22:29:22 - [MESSAGE][PASSED] - Text 'C0010' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgency'
+
+2023-08-06 22:29:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgency"), Keys.chord(TAB), CONTINUE_ON_FAILURE): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgency'
+
+2023-08-06 22:29:22 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgency'
+
+2023-08-06 22:29:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount")): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount' is visible
+
+2023-08-06 22:29:23 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount' is visible
+
+2023-08-06 22:29:23 - [TEST_STEP][PASSED] - clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount")): Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount' is cleared
+
+2023-08-06 22:29:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount' is cleared
+
+2023-08-06 22:29:23 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount"), SplitAgencyAmount, CONTINUE_ON_FAILURE): Text '10' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount'
+
+2023-08-06 22:29:24 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount'
+
+2023-08-06 22:29:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount'
+
+2023-08-06 22:29:24 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyAmount'
+
+2023-08-06 22:29:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDescription"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDescription' is visible
+
+2023-08-06 22:29:25 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDescription' is visible
+
+2023-08-06 22:29:25 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDescription"), SplitAgencyDescription, CONTINUE_ON_FAILURE): Text 'Payment on Agency level' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDescription'
+
+2023-08-06 22:29:26 - [MESSAGE][PASSED] - Text 'Payment on Agency level' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDescription'
+
+2023-08-06 22:29:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is visible
+
+2023-08-06 22:29:26 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is visible
+
+2023-08-06 22:29:26 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is clicked on
+
+2023-08-06 22:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is clicked on
+
+2023-08-06 22:29:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyStatement"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyStatement' is visible
+
+2023-08-06 22:29:27 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyStatement' is visible
+
+2023-08-06 22:29:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyStatement"), SplitTypePayment, false, CONTINUE_ON_FAILURE): All options with label 'Payment' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyStatement' 
+
+2023-08-06 22:29:28 - [MESSAGE][PASSED] - All options with label 'Payment' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyStatement' 
+
+2023-08-06 22:29:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_ABStatement")): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_ABStatement' is visible
+
+2023-08-06 22:29:29 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_ABStatement' is visible
+
+2023-08-06 22:29:29 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_ABStatement"), SplitAgency, CONTINUE_ON_FAILURE): Text 'C0010' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_ABStatement'
+
+2023-08-06 22:29:29 - [MESSAGE][PASSED] - Text 'C0010' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_ABStatement'
+
+2023-08-06 22:29:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_ABStatement"), Keys.chord(TAB), CONTINUE_ON_FAILURE): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_ABStatement'
+
+2023-08-06 22:29:30 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_ABStatement'
+
+2023-08-06 22:29:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatement")): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatement' is visible
+
+2023-08-06 22:29:31 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatement' is visible
+
+2023-08-06 22:29:31 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatement"), SplitAgencyStatement, CONTINUE_ON_FAILURE): Text '7000000111' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatement'
+
+2023-08-06 22:29:31 - [MESSAGE][PASSED] - Text '7000000111' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatement'
+
+2023-08-06 22:29:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatement"), Keys.chord(TAB), CONTINUE_ON_FAILURE): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatement'
+
+2023-08-06 22:29:32 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatement'
+
+2023-08-06 22:29:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount")): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount' is visible
+
+2023-08-06 22:29:33 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount' is visible
+
+2023-08-06 22:29:33 - [TEST_STEP][PASSED] - clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount")): Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount' is cleared
+
+2023-08-06 22:29:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount' is cleared
+
+2023-08-06 22:29:33 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount"), SplitAgencyAmount, CONTINUE_ON_FAILURE): Text '10' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount'
+
+2023-08-06 22:29:34 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount'
+
+2023-08-06 22:29:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount'
+
+2023-08-06 22:29:34 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementAmount'
+
+2023-08-06 22:29:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementDescription"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementDescription' is visible
+
+2023-08-06 22:29:35 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementDescription' is visible
+
+2023-08-06 22:29:35 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementDescription"), SplitAgencyStatementDescription, CONTINUE_ON_FAILURE): Text 'Payment on Agency Statement level' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementDescription'
+
+2023-08-06 22:29:35 - [MESSAGE][PASSED] - Text 'Payment on Agency Statement level' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyStatementDescription'
+
+2023-08-06 22:29:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is visible
+
+2023-08-06 22:29:36 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is visible
+
+2023-08-06 22:29:36 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is clicked on
+
+2023-08-06 22:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is clicked on
+
+2023-08-06 22:29:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyDBComm"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyDBComm' is visible
+
+2023-08-06 22:29:37 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyDBComm' is visible
+
+2023-08-06 22:29:37 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyDBComm"), SplitTypePayment, false, CONTINUE_ON_FAILURE): All options with label 'Payment' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyDBComm' 
+
+2023-08-06 22:29:38 - [MESSAGE][PASSED] - All options with label 'Payment' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypePaymentAgencyDBComm' 
+
+2023-08-06 22:29:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_DBStatement")): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_DBStatement' is visible
+
+2023-08-06 22:29:38 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_DBStatement' is visible
+
+2023-08-06 22:29:38 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_DBStatement"), SplitAgency, CONTINUE_ON_FAILURE): Text 'C0010' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_DBStatement'
+
+2023-08-06 22:29:39 - [MESSAGE][PASSED] - Text 'C0010' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_DBStatement'
+
+2023-08-06 22:29:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_DBStatement"), Keys.chord(TAB), CONTINUE_ON_FAILURE): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_DBStatement'
+
+2023-08-06 22:29:39 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyCode_DBStatement'
+
+2023-08-06 22:29:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_SplitAgencyDBComm")): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_SplitAgencyDBComm' is visible
+
+2023-08-06 22:29:40 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_SplitAgencyDBComm' is visible
+
+2023-08-06 22:29:40 - [TEST_STEP][PASSED] - check(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_SplitAgencyDBComm")): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_SplitAgencyDBComm' is checked
+
+2023-08-06 22:29:41 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_SplitAgencyDBComm' is checked
+
+2023-08-06 22:29:41 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_SplitAgencyDBComm"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_SplitAgencyDBComm' is checked
+
+2023-08-06 22:29:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '2'
+
+2023-08-06 22:29:41 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/chk_SplitAgencyDBComm' is checked
+
+2023-08-06 22:29:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount")): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount' is visible
+
+2023-08-06 22:29:42 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount' is visible
+
+2023-08-06 22:29:42 - [TEST_STEP][PASSED] - clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount")): Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount' is cleared
+
+2023-08-06 22:29:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount' is cleared
+
+2023-08-06 22:29:42 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount"), SplitAgencyDBCommAmount, CONTINUE_ON_FAILURE): Text '10' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount'
+
+2023-08-06 22:29:43 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount'
+
+2023-08-06 22:29:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount'
+
+2023-08-06 22:29:43 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommAmount'
+
+2023-08-06 22:29:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommDescription"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommDescription' is visible
+
+2023-08-06 22:29:44 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommDescription' is visible
+
+2023-08-06 22:29:44 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommDescription"), SplitAgencyDBCommDescription, CONTINUE_ON_FAILURE): Text 'Payment on Agency DB Commission' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommDescription'
+
+2023-08-06 22:29:45 - [MESSAGE][PASSED] - Text 'Payment on Agency DB Commission' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitAgencyDBCommDescription'
+
+2023-08-06 22:29:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is visible
+
+2023-08-06 22:29:45 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is visible
+
+2023-08-06 22:29:45 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is clicked on
+
+2023-08-06 22:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_AddSplit' is clicked on
+
+2023-08-06 22:29:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypeSuspense"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypeSuspense' is visible
+
+2023-08-06 22:29:47 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypeSuspense' is visible
+
+2023-08-06 22:29:47 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypeSuspense"), SplitTypeSuspense, false, CONTINUE_ON_FAILURE): All options with label 'Suspense' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypeSuspense' 
+
+2023-08-06 22:29:47 - [MESSAGE][PASSED] - All options with label 'Suspense' are selected in object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/lst_SplitTypeSuspense' 
+
+2023-08-06 22:29:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount")): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount' is visible
+
+2023-08-06 22:29:48 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount' is visible
+
+2023-08-06 22:29:48 - [TEST_STEP][PASSED] - clearText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount")): Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount' is cleared
+
+2023-08-06 22:29:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount' is cleared
+
+2023-08-06 22:29:48 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount"), SplitSuspenseAmount, CONTINUE_ON_FAILURE): Text '10' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount'
+
+2023-08-06 22:29:49 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount'
+
+2023-08-06 22:29:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount'
+
+2023-08-06 22:29:50 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseAmount'
+
+2023-08-06 22:29:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseDescription"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseDescription' is visible
+
+2023-08-06 22:29:50 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseDescription' is visible
+
+2023-08-06 22:29:50 - [TEST_STEP][PASSED] - setText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseDescription"), SplitSuspenseDescription, CONTINUE_ON_FAILURE): Text 'Payment on suspense level' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseDescription'
+
+2023-08-06 22:29:51 - [MESSAGE][PASSED] - Text 'Payment on suspense level' is set on object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/txt_SplitSuspenseDescription'
+
+2023-08-06 22:29:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_SplitOK"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_SplitOK' is visible
+
+2023-08-06 22:29:51 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_SplitOK' is visible
+
+2023-08-06 22:29:51 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_SplitOK"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_SplitOK' is clicked on
+
+2023-08-06 22:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/screen_SplitPaymentEntry/btn_SplitOK' is clicked on
+
+2023-08-06 22:29:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Next"), 7, CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Next' is visible
+
+2023-08-06 22:29:53 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Next' is visible
+
+2023-08-06 22:29:53 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Next"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Next' is clicked on
+
+2023-08-06 22:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Next' is clicked on
+
+2023-08-06 22:29:53 - [TEST_STEP][PASSED] - BatchNumber = getText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/val_BatchNumber"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/val_BatchNumber' is: 'BA07172026-1372'
+
+2023-08-06 22:29:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/val_BatchNumber' is: 'BA07172026-1372'
+
+2023-08-06 22:29:54 - [TEST_STEP][PASSED] - comment("Posted Payment Batch Number " + BatchNumber): Posted Payment Batch Number BA07172026-1372
+
+2023-08-06 22:29:54 - [MESSAGE][INFO] - Posted Payment Batch Number BA07172026-1372
+
+2023-08-06 22:29:54 - [TEST_STEP][PASSED] - CheckRef = getText(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/val_CheckRef"), CONTINUE_ON_FAILURE): Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/val_CheckRef' is: '9887765432'
+
+2023-08-06 22:29:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/val_CheckRef' is: '9887765432'
+
+2023-08-06 22:29:54 - [TEST_STEP][PASSED] - comment("Posted Payment CheckRef Number " + CheckRef): Posted Payment CheckRef Number 9887765432
+
+2023-08-06 22:29:54 - [MESSAGE][INFO] - Posted Payment CheckRef Number 9887765432
+
+2023-08-06 22:29:54 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Post"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Post' is clicked on
+
+2023-08-06 22:29:55 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/btn_Post' is clicked on
+
+2023-08-06 22:29:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump' is present
+
+2023-08-06 22:29:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '2'
+
+2023-08-06 22:29:55 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump' is present
+
+2023-08-06 22:29:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump"), "runBatchProcess PostBatchPayment_sp", CONTINUE_ON_FAILURE): Keys 'runBatchProcess PostBatchPayment_sp' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump'
+
+2023-08-06 22:29:56 - [MESSAGE][PASSED] - Keys 'runBatchProcess PostBatchPayment_sp' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump'
+
+2023-08-06 22:29:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump"), Keys.chord(ENTER), CONTINUE_ON_FAILURE): Keys 'ENTER + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump'
+
+2023-08-06 22:29:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_BatchJobs/fld_GoTo_Quickjump'
+
+2023-08-06 22:29:56 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/lbl_DesktopOption"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/lbl_DesktopOption' is clicked on
+
+2023-08-06 22:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/lbl_DesktopOption' is clicked on
+
+2023-08-06 22:29:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/opt_SuspensepPayment"), CONTINUE_ON_FAILURE): Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/opt_SuspensepPayment' is visible
+
+2023-08-06 22:29:58 - [MESSAGE][PASSED] - Object 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/opt_SuspensepPayment' is visible
+
+2023-08-06 22:29:58 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/opt_SuspensepPayment"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/opt_SuspensepPayment' is clicked on
+
+2023-08-06 22:29:59 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_MultiplePaymentWizard/opt_SuspensepPayment' is clicked on
+
+2023-08-06 22:29:59 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-08-06 22:29:59 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//div[@id='DesktopSuspensePayments-DesktopSuspensePaymentsScreen-DesktopSuspensePaymentsLV']//tbody")): null
+
+2023-08-06 22:29:59 - [TEST_STEP][PASSED] - elementsinColumn = gw.Table.getTableElementsByColumn(Table, 9): gw.Table.getTableElementsByColumn is PASSED
+
+2023-08-06 22:30:05 - [MESSAGE][PASSED] - gw.Table.getTableElementsByColumn is PASSED
+
+2023-08-06 22:30:05 - [TEST_STEP][PASSED] - comment("Elements after function call to getTableElementsByColumn " + elementsinColumn): Elements after function call to getTableElementsByColumn [Batch Number, , , BA07172026-1372, BA07172026-1368, BA07162026-1349, BA07162026-1281, BA07162026-1274, CA07162026-1270, BA07042026-1252, BA07042026-1248, BA03242026-1179, BA03242026-1175, BA03242026-1150, BA03242026-1146, LB03242026, ]
+
+2023-08-06 22:30:05 - [MESSAGE][INFO] - Elements after function call to getTableElementsByColumn [Batch Number, , , BA07172026-1372, BA07172026-1368, BA07162026-1349, BA07162026-1281, BA07162026-1274, CA07162026-1270, BA07042026-1252, BA07042026-1248, BA03242026-1179, BA03242026-1175, BA03242026-1150, BA03242026-1146, LB03242026, ]
+
+2023-08-06 22:30:05 - [TEST_STEP][PASSED] - if (elementsinColumn.contains(BatchNumber)): Suspense Payment Batch Number Found
+
+2023-08-06 22:30:05 - [TEST_STEP][PASSED] - markPassed("Suspense Payment Batch Number Found"): Suspense Payment Batch Number Found
+
+2023-08-06 22:30:05 - [MESSAGE][PASSED] - Suspense Payment Batch Number Found
+
+2023-08-06 22:30:05 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_AccountSearch"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_AccountSearch' is clicked on
+
+2023-08-06 22:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_AccountSearch' is clicked on
+
+2023-08-06 22:30:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/fld_SearchAccount"), SplitAccount, CONTINUE_ON_FAILURE): Keys '3062523' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/fld_SearchAccount'
+
+2023-08-06 22:30:06 - [MESSAGE][PASSED] - Keys '3062523' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/fld_SearchAccount'
+
+2023-08-06 22:30:06 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_SearchAccount"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_SearchAccount' is clicked on
+
+2023-08-06 22:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_SearchAccount' is clicked on
+
+2023-08-06 22:30:06 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_PaymentsDownArrow"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_PaymentsDownArrow' is clicked on
+
+2023-08-06 22:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_PaymentsDownArrow' is clicked on
+
+2023-08-06 22:30:07 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_PaymentsAccount"), CONTINUE_ON_FAILURE): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_PaymentsAccount' is clicked on
+
+2023-08-06 22:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_PaymentsAccount' is clicked on
+
+2023-08-06 22:30:08 - [TEST_STEP][PASSED] - Table1 = driver.findElement(By.xpath("//*[@id='AccountPayments-AccountDetailPaymentsScreen-DirectBillPaymentsListDetail-AccountDBPaymentsLV']//tbody")): null
+
+2023-08-06 22:30:09 - [TEST_STEP][PASSED] - elementsinColumn1 = gw.Table.getTableElementsByColumn(Table1, 8): gw.Table.getTableElementsByColumn is PASSED
+
+2023-08-06 22:30:13 - [MESSAGE][PASSED] - gw.Table.getTableElementsByColumn is PASSED
+
+2023-08-06 22:30:13 - [TEST_STEP][PASSED] - comment("Elements after function call to getTableElementsByColumn " + elementsinColumn1): Elements after function call to getTableElementsByColumn [Batch Number, BA07172026-1372, BA07172026-1372, BA07172026-1368, BA07172026-1368, BA07162026-1335, BA07162026-1328, BA07162026-1324, BA07162026-1320, BA07162026-1316, BA07162026-1312, BA07042026-1252, BA07042026-1234, BA07042026-1227]
+
+2023-08-06 22:30:13 - [MESSAGE][INFO] - Elements after function call to getTableElementsByColumn [Batch Number, BA07172026-1372, BA07172026-1372, BA07172026-1368, BA07172026-1368, BA07162026-1335, BA07162026-1328, BA07162026-1324, BA07162026-1320, BA07162026-1316, BA07162026-1312, BA07042026-1252, BA07042026-1234, BA07042026-1227]
+
+2023-08-06 22:30:13 - [TEST_STEP][PASSED] - if (elementsinColumn1.contains(BatchNumber)): Account Payment Batch Number Found
+
+2023-08-06 22:30:13 - [TEST_STEP][PASSED] - markPassed("Account Payment Batch Number Found"): Account Payment Batch Number Found
+
+2023-08-06 22:30:13 - [MESSAGE][PASSED] - Account Payment Batch Number Found
+
+2023-08-06 22:30:13 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_ProducerSearch")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_ProducerSearch' is clicked on
+
+2023-08-06 22:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_ProducerSearch' is clicked on
+
+2023-08-06 22:30:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/fld_SearchProducer"), SplitAgency): Keys 'C0010' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/fld_SearchProducer'
+
+2023-08-06 22:30:14 - [MESSAGE][PASSED] - Keys 'C0010' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/fld_SearchProducer'
+
+2023-08-06 22:30:14 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_SearchProducer")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_SearchProducer' is clicked on
+
+2023-08-06 22:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_SearchProducer' is clicked on
+
+2023-08-06 22:30:14 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_AgencyBillPaymentsArrow")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_AgencyBillPaymentsArrow' is clicked on
+
+2023-08-06 22:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_AgencyBillPaymentsArrow' is clicked on
+
+2023-08-06 22:30:15 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_PaymentsProducer")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_PaymentsProducer' is clicked on
+
+2023-08-06 22:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_PaymentsProducer' is clicked on
+
+2023-08-06 22:30:16 - [TEST_STEP][PASSED] - Table2 = driver.findElement(By.xpath("//*[@id='AgencyBillExecutedPayments-PaymentsLV']//tbody")): null
+
+2023-08-06 22:30:16 - [TEST_STEP][PASSED] - elementsinColumn2 = gw.Table.getTableElementsByColumn(Table2, 9): gw.Table.getTableElementsByColumn is PASSED
+
+2023-08-06 22:30:19 - [MESSAGE][PASSED] - gw.Table.getTableElementsByColumn is PASSED
+
+2023-08-06 22:30:19 - [TEST_STEP][PASSED] - comment("Elements after function call to getTableElementsByColumn " + elementsinColumn2): Elements after function call to getTableElementsByColumn [Batch Number, BA07172026-1372, BA07172026-1372, BA07172026-1368, BA07172026-1368, LB07162026, LB07042026]
+
+2023-08-06 22:30:19 - [MESSAGE][INFO] - Elements after function call to getTableElementsByColumn [Batch Number, BA07172026-1372, BA07172026-1372, BA07172026-1368, BA07172026-1368, LB07162026, LB07042026]
+
+2023-08-06 22:30:19 - [TEST_STEP][PASSED] - if (elementsinColumn2.contains(BatchNumber)): Agency Statement Payment Batch Number Found
+
+2023-08-06 22:30:19 - [TEST_STEP][PASSED] - markPassed("Agency Statement Payment Batch Number Found"): Agency Statement Payment Batch Number Found
+
+2023-08-06 22:30:19 - [MESSAGE][PASSED] - Agency Statement Payment Batch Number Found
+
+2023-08-06 22:30:19 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_ProducerSearch")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_ProducerSearch' is clicked on
+
+2023-08-06 22:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_ProducerSearch' is clicked on
+
+2023-08-06 22:30:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/fld_SearchProducer"), SplitAgency): Keys 'C0010' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/fld_SearchProducer'
+
+2023-08-06 22:30:20 - [MESSAGE][PASSED] - Keys 'C0010' sent to object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/fld_SearchProducer'
+
+2023-08-06 22:30:20 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_SearchProducer")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_SearchProducer' is clicked on
+
+2023-08-06 22:30:20 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/icon_SearchProducer' is clicked on
+
+2023-08-06 22:30:20 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_TransactionsProducer")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_TransactionsProducer' is clicked on
+
+2023-08-06 22:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/opt_TransactionsProducer' is clicked on
+
+2023-08-06 22:30:21 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/Tab_PaymentsProducer")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/Tab_PaymentsProducer' is clicked on
+
+2023-08-06 22:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/Tab_PaymentsProducer' is clicked on
+
+2023-08-06 22:30:22 - [TEST_STEP][PASSED] - Table3 = driver.findElement(By.xpath("//*[@id='ProducerTransactions-ProducerTransactionsScreen-PaymentsLV']//tbody")): null
+
+2023-08-06 22:30:22 - [TEST_STEP][PASSED] - elementsinColumn3 = gw.Table.getTableElementsByColumn(Table3, 7): gw.Table.getTableElementsByColumn is PASSED
+
+2023-08-06 22:30:26 - [MESSAGE][PASSED] - gw.Table.getTableElementsByColumn is PASSED
+
+2023-08-06 22:30:26 - [TEST_STEP][PASSED] - comment("Elements after function call to getTableElementsByColumn " + elementsinColumn3): Elements after function call to getTableElementsByColumn [Check / Ref #, 2342342345, 2342342345, 2342342345, 2342342345, 9231231299, 9551231299, 9551231299, 9887765432, 9887765432, ]
+
+2023-08-06 22:30:26 - [MESSAGE][INFO] - Elements after function call to getTableElementsByColumn [Check / Ref #, 2342342345, 2342342345, 2342342345, 2342342345, 9231231299, 9551231299, 9551231299, 9887765432, 9887765432, ]
+
+2023-08-06 22:30:26 - [TEST_STEP][PASSED] - if (elementsinColumn3.contains(CheckRef)): Agency DB Commission Payment CheckRef Found
+
+2023-08-06 22:30:26 - [TEST_STEP][PASSED] - markPassed("Agency DB Commission Payment CheckRef Found"): Agency DB Commission Payment CheckRef Found
+
+2023-08-06 22:30:26 - [MESSAGE][PASSED] - Agency DB Commission Payment CheckRef Found
+
+2023-08-06 22:30:26 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/lbl_DesktopOption")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/lbl_DesktopOption' is clicked on
+
+2023-08-06 22:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/screen_Verify_PostedPayments/lbl_DesktopOption' is clicked on
+
+2023-08-06 22:30:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("BillingCenter/BatchPaymentEntry/BC_NavigateBatchPaymentEntryScreen"), [:]): Call Test Case 'Test Cases/BillingCenter/BatchPaymentEntry/BC_NavigateBatchPaymentEntryScreen' successfully
+
+2023-08-06 22:30:27 - [TEST_CASE][PASSED] - Test Cases/BillingCenter/BatchPaymentEntry/BC_NavigateBatchPaymentEntryScreen: Test Cases/BillingCenter/BatchPaymentEntry/BC_NavigateBatchPaymentEntryScreen
+
+2023-08-06 22:30:27 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_Desktop_Actions")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_Desktop_Actions' is clicked on
+
+2023-08-06 22:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_Desktop_Actions' is clicked on
+
+2023-08-06 22:30:27 - [TEST_STEP][PASSED] - mouseOver(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/act_NewPayment")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/pge_Navigation/act_NewPayment' is hovered
+
+2023-08-06 22:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/pge_Navigation/act_NewPayment' is hovered
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - click(findTestObject("BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_newPayment _BatchPaymentEntry")): Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_newPayment _BatchPaymentEntry' is clicked on
+
+2023-08-06 22:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/BillingCenter/pge_BatchPaymentEntry/pge_Navigation/opt_newPayment _BatchPaymentEntry' is clicked on
+
+2023-08-06 22:30:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/BillingCenter/BatchPaymentEntry/BC_NavigateBatchPaymentEntryScreen' successfully
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - for (def index : (0..0)): null
+
+2023-08-06 22:30:28 - [TEST_STEP][ERROR] - Start listener action : gwAfterTestCase: org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at GWListener.invokeMethod(GWListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691341108127.run(TempTestSuite1691341108127.groovy:39)
+Caused by: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at common.Excel.getColumnNumber(Excel.groovy:69)
+	at common.Excel.WirteToExcel(Excel.groovy:95)
+	at common.Excel$WirteToExcel$0.call(Unknown Source)
+	at GWListener.gwAfterTestCase(GWListener.groovy:137)
+	... 14 more
+
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - tc_end_Time = System.currentTimeMillis(): null
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - date_tc_end_Time = dateformat.format(tc_end_Time): null
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - (tempRowNum++): null
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - testCaseID = testCaseContext.getTestCaseId(): null
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - testCase = findTestCase(testCaseID): null
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - testCaseName = testCase.getName(): null
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - switch (testCaseContext.getTestCaseStatus()): null
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - case "PASSED":: null
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - (passedCnt++): null
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - break: null
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - if (testCaseName == "GenerateAndSendReport"): null
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - if (testCaseName == "GenerateAndSaveReport"): null
+
+2023-08-06 22:30:28 - [TEST_STEP][PASSED] - if (testCaseName == "GenerateTimeReport"): null
+
+2023-08-06 22:30:28 - [TEST_STEP][ERROR] - if (!(testCaseName.contains("Submission")) && !(testCaseName.contains("Issurance")) && !(testCaseName.contains("NewAccount")) && !(testCaseName.contains("FNOL")) && !(testCaseName.contains("QuickClaim")) && !(testCaseName.contains("verify"))): org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at GWListener.invokeMethod(GWListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691341108127.run(TempTestSuite1691341108127.groovy:39)
+Caused by: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at common.Excel.getColumnNumber(Excel.groovy:69)
+	at common.Excel.WirteToExcel(Excel.groovy:95)
+	at common.Excel$WirteToExcel$0.call(Unknown Source)
+	at GWListener.gwAfterTestCase(GWListener.groovy:137)
+	... 14 more
+
+
+2023-08-06 22:30:28 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.InvokerInvocationException: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at GWListener.invokeMethod(GWListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691341108127.run(TempTestSuite1691341108127.groovy:39)
+Caused by: java.io.FileNotFoundException: C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Reports\Execution Status.xlsx (The system cannot find the file specified)
+	at common.Excel.getColumnNumber(Excel.groovy:69)
+	at common.Excel.WirteToExcel(Excel.groovy:95)
+	at common.Excel$WirteToExcel$0.call(Unknown Source)
+	at GWListener.gwAfterTestCase(GWListener.groovy:137)
+	... 14 more
+
+
+2023-08-06 22:30:31 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/BillingCenter/BatchPaymentEntry/BC_MultiplePaymentEntryandVerification_Split' .
+
+2023-08-06 22:30:31 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/BillingCenter/BatchPaymentEntry/BC_MultiplePaymentEntryandVerification_Split' .
+[[ATTACHMENT|C:\\QA Scripts\\emc.guidewire.katalon.updated\\GW10 Automation\\Reports\\20230806_222828\\BillingCenter\\BatchPaymentEntry\\20230806_222828/videos\\test_3.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-06 22:28:31 - [TEST_SUITE][PASSED] - BatchPaymentEntry: Test Cases/BillingCenter/BatchPaymentEntry/BC_MultiplePaymentEntryandVerification_Split]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

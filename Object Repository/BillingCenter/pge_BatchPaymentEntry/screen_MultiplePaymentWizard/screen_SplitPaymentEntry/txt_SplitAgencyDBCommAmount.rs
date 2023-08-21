@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_SplitAgencyDBCommAmount</name>
+   <tag></tag>
+   <elementGuidId>beb61c98-e485-49f0-9a99-ea252224c874</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name='NewMultiPaymentSplitExtPopup-NewMultiPaymentSplitExtScreen-NewMultiPaymentLV-4-Amount']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='BatchPaymentEntryWizard-NewBatchPaymentScreen-NewMultiPaymentLV-0-Amount']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BC_StartPaymentRequestBatch_PerfValidate - Edge</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55c3f608-c9a8-4882-b9c5-ea172d8c1f16</testCaseGuid>
+</TestCaseEntity>

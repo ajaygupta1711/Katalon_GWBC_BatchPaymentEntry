@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Log out of BillingCenter Center and close the browser.</description>
+   <name>BC_Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c28d4264-9185-421d-aae0-8667e0de6f75</testCaseGuid>
+</TestCaseEntity>

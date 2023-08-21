@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_ActuarialApp_Status</name>
+   <tag></tag>
+   <elementGuidId>440837f0-55e9-4542-bc90-dca9dc24b7e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[contains(text(),'ActuarialApp')]/following::div)[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[contains(text(),'ActuarialApp')]/following::div)[8]</value>
+   </webElementProperties>
+</WebElementEntity>

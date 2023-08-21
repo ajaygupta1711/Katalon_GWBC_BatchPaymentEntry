@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_01_Runtime_Properties</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5cd68738-eb5e-4d26-b5ac-f949bf7e4235</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ddc5c829-9a0f-4c2a-81f4-409c967cc627</id>
+      <masked>false</masked>
+      <name>Property_Group</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8b79d7be-4e5a-444a-9f8e-982b6c151bd8</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c9449507-6ea5-4139-9b43-8ca5bb3d0526</id>
+      <masked>false</masked>
+      <name>Value</name>
+   </variable>
+</TestCaseEntity>

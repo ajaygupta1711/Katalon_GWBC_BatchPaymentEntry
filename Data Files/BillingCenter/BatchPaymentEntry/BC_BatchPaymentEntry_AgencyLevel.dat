@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>BC_BatchPaymentEntry_AgencyLevel</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ee13d1a7-afaf-4c8b-bf82-fb7b87e414ee</dataFileGUID>
+   <dataSourceUrl>C:\QA Scripts\emc.guidewire.katalon.updated\GW10 Automation\Data Files\BillingCenter\BatchPaymentEntry\BatchPaymentEntries_AgencyLevel.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>AgencyPayments</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

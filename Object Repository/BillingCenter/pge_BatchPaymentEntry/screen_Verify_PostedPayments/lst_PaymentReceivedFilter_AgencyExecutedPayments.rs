@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lst_PaymentReceivedFilter_AgencyExecutedPayments</name>
+   <tag></tag>
+   <elementGuidId>c7ac3e7b-976f-46fe-b081-73b9a3b85e32</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>*[name='AgencyBillExecutedPayments-PaymentsLV_tb-PaymentsReceivedFilter']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

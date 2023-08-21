@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_BatchNumber_Payments_DBCommission</name>
+   <tag></tag>
+   <elementGuidId>83ee0682-9325-487d-b7f2-02f61eb95381</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>*[id='PaymentDetailsPopup-PaymentDetailsPopupScreen-BatchNumber_Ext']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to the Batch Payment Entry screen</description>
+   <name>BC_NavigateBatchPaymentEntryScreen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5221e88b-aa25-48e5-893a-d94038218166</testCaseGuid>
+</TestCaseEntity>

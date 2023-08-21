@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GenerateAndSendReport</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbbc3b60-d03a-450a-888b-289ea1be5fc7</testCaseGuid>
+   <variable>
+      <defaultValue>'bruce.lin@pwc.com'</defaultValue>
+      <description></description>
+      <id>c1b2a972-17c6-4255-94f1-a9719890f843</id>
+      <masked>false</masked>
+      <name>Email_From</name>
+   </variable>
+   <variable>
+      <defaultValue>'bruce.lin@pwc.com'</defaultValue>
+      <description></description>
+      <id>3a3e9a5c-e09e-4d3b-9fb7-f86ed71469f7</id>
+      <masked>false</masked>
+      <name>Email_To</name>
+   </variable>
+   <variable>
+      <defaultValue>'bruce.lin@pwc.com'</defaultValue>
+      <description></description>
+      <id>f69f6294-4dad-4d9d-a865-e6a398fd9b56</id>
+      <masked>false</masked>
+      <name>Email_CC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e47245a3-6875-40a6-9e0b-aa8f9c222ff2</id>
+      <masked>false</masked>
+      <name>Email_Host</name>
+   </variable>
+   <variable>
+      <defaultValue>'25'</defaultValue>
+      <description></description>
+      <id>0bdd42e2-0e80-4998-8725-927132dfb68e</id>
+      <masked>false</masked>
+      <name>Email_Port</name>
+   </variable>
+</TestCaseEntity>
